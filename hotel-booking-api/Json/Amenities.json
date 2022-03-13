@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "826cb506-f25a-4e27-93d7-6cbc2defd210",
+    "Name": "Gym",
+    "Price": 64120.78,
+    "Discount": 0.15,
+    "CreatedAt": "10/29/2020",
+    "UpdatedAt": "11/9/2020"
+  },
+  {
+    "Id": "17a76829-1f2f-4c21-a511-7e7661e3e2bc",
+    "Name": "Pool",
+    "Price": 49500.68,
+    "Discount": 0.1,
+    "CreatedAt": "8/28/2021",
+    "UpdatedAt": "2/19/2021"
+  },
+  {
+    "Id": "751e2d6b-27fb-476a-aea5-054fe2e94067",
+    "Name": "Conference Hall",
+    "Price": 120900.99,
+    "Discount": 0.12,
+    "CreatedAt": "4/4/2021",
+    "UpdatedAt": "7/30/2021"
+  },
+  {
+    "Id": "9a991076-3097-4a2a-be47-d79d7855add3",
+    "Name": "Internet Access",
+    "Price": 5420.36,
+    "Discount": 0.2,
+    "CreatedAt": "12/8/2020",
+    "UpdatedAt": "6/6/2021"
+  }
+]

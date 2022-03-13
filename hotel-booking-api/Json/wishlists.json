@@ -1,0 +1,111 @@
+[
+  {
+    "CustomerId": "bd4760cf-c01c-4aac-8fde-4071b238241c",
+    "HotelId": "0ebe22a8-b758-40be-8e25-376dcd76718d"
+  },
+  {
+    "CustomerId": "2ccd5586-51f2-444c-aa63-e13012748dfa",
+    "HotelId": "aa15e58c-468f-4ca4-a158-78e04fb279ac"
+  },
+  {
+    "CustomerId": "c96777aa-0bbf-416d-aedb-5063abc67590",
+    "HotelId": "7a786267-6cec-42b1-9178-b0c84eb09466"
+  },
+  {
+    "CustomerId": "6c0998e8-f505-49c0-8efc-0d5d90a50152",
+    "HotelId": "43fba4a3-1a1a-4988-abda-1b6ae9599742"
+  },
+  {
+    "CustomerId": "ac2df452-4d8b-463a-9303-af2321238879",
+    "HotelId": "65d33167-cdb8-49d1-b6e5-5f5a9d46e896"
+  },
+  {
+    "CustomerId": "74f07007-cf49-4d55-bd60-3bdbdbc6c084",
+
+    "HotelId": "83fe8f03-40af-4dbe-b61b-5c6e7782cf79"
+  },
+  {
+    "CustomerId": "7a535491-de50-445d-a615-7e9a1023e48e",
+    "HotelId": "e9963012-3081-4c12-8deb-31f10b4091e5"
+  },
+  {
+    "CustomerId": "846e8182-9829-416d-9b66-e3e51b0206b3",
+    "HotelId": "5b9371cb-4a47-4a6c-a99f-bc0aa879655b"
+  },
+  {
+    "CustomerId": "59d2d94c-79bf-4aaa-825e-d84a6b80e168",
+    "HotelId": "c338dbe3-3e48-4109-bf0d-3ccf042519a2"
+  },
+  {
+    "CustomerId": "922daede-c5ba-48c2-84c4-8b58aae2ddc5",
+    "HotelId": "e89f90ef-b560-4d00-b919-080fed7495ff"
+  },
+  {
+    "CustomerId": "d296434c-13bc-4f44-a8d7-4426bf0cbd56",
+    "HotelId": "0ebe22a8-b758-40be-8e25-376dcd76718d"
+  },
+  {
+    "CustomerId": "810042ea-ac3c-48c0-a7a2-8a94a192aaea",
+    "HotelId": "aa15e58c-468f-4ca4-a158-78e04fb279ac"
+  },
+  {
+    "CustomerId": "d9b0dfd2-6c4b-47f3-ae3d-1d6cea4ad365",
+    "HotelId": "7a786267-6cec-42b1-9178-b0c84eb09466"
+  },
+  {
+    "CustomerId": "ba4a08e2-62dc-4bfb-bfc9-972ce952102e",
+    "HotelId": "43fba4a3-1a1a-4988-abda-1b6ae9599742"
+  },
+  {
+    "CustomerId": "d60e65f7-738d-42d8-a960-fccaced0e4a4",
+    "HotelId": "65d33167-cdb8-49d1-b6e5-5f5a9d46e896"
+  },
+  {
+    "CustomerId": "d60e65f7-738d-42d8-a960-fccaced0e4a4",
+    "HotelId": "83fe8f03-40af-4dbe-b61b-5c6e7782cf79"
+  },
+  {
+    "CustomerId": "ba4a08e2-62dc-4bfb-bfc9-972ce952102e",
+    "HotelId": "e9963012-3081-4c12-8deb-31f10b4091e5"
+  },
+  {
+    "CustomerId": "d9b0dfd2-6c4b-47f3-ae3d-1d6cea4ad365",
+    "HotelId": "5b9371cb-4a47-4a6c-a99f-bc0aa879655b"
+  },
+  {
+    "CustomerId": "810042ea-ac3c-48c0-a7a2-8a94a192aaea",
+    "HotelId": "c338dbe3-3e48-4109-bf0d-3ccf042519a2"
+  },
+  {
+    "CustomerId": "d296434c-13bc-4f44-a8d7-4426bf0cbd56",
+    "HotelId": "e89f90ef-b560-4d00-b919-080fed7495ff"
+  },
+  {
+    "CustomerId": "74f07007-cf49-4d55-bd60-3bdbdbc6c084",
+    "HotelId": "c338dbe3-3e48-4109-bf0d-3ccf042519a2"
+  },
+  {
+    "CustomerId": "7a535491-de50-445d-a615-7e9a1023e48e",
+    "HotelId": "e89f90ef-b560-4d00-b919-080fed7495ff"
+  },
+  {
+    "CustomerId": "810042ea-ac3c-48c0-a7a2-8a94a192aaea",
+    "HotelId": "0ebe22a8-b758-40be-8e25-376dcd76718d"
+  },
+  {
+    "CustomerId": "846e8182-9829-416d-9b66-e3e51b0206b3",
+    "HotelId": "aa15e58c-468f-4ca4-a158-78e04fb279ac"
+  },
+  {
+    "CustomerId": "922daede-c5ba-48c2-84c4-8b58aae2ddc5",
+    "HotelId": "7a786267-6cec-42b1-9178-b0c84eb09466"
+  },
+  {
+    "CustomerId": "ac2df452-4d8b-463a-9303-af2321238879",
+    "HotelId": "43fba4a3-1a1a-4988-abda-1b6ae9599742"
+  },
+  {
+    "CustomerId": "ba4a08e2-62dc-4bfb-bfc9-972ce952102e",
+    "HotelId": "65d33167-cdb8-49d1-b6e5-5f5a9d46e896"
+  }
+]

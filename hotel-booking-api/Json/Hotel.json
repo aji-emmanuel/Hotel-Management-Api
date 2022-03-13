@@ -1,0 +1,2154 @@
+[
+  {
+    "id": "83fe8f03-40af-4dbe-b61b-5c6e7782cf79",
+    "Name": "Azure Seaside Hotel",
+    "Description": "An ideal world. If only for a night.",
+    "Email": "lhindmoor0@archive.org",
+    "Phone": "832-309-1829",
+    "Address": "7163 Walton Crossing",
+    "City": "Eko Atlantic",
+    "State": "Lagos",
+    "ManagerId": "390e272d-a264-4d7b-b3af-8bdc2a1f92f3",
+    "Reviews": [
+      {
+        "Id": "465bc6ce-3c13-47cf-82f0-32008454f6ba",
+        "Comment": "Great Hotel and facilities",
+        "CustomerId": "bd4760cf-c01c-4aac-8fde-4071b238241c",
+        "CreatedAt": "7/22/2021",
+        "UpdatedAt": "4/21/2021"
+      },
+      {
+        "Id": "5f5a3777-35b2-4f0e-a7c7-eb705e39b0f5",
+        "Comment": "This will be my lodging whenever am in lagos for business",
+        "CreatedAt": "8/27/2021",
+        "CustomerId": "2ccd5586-51f2-444c-aa63-e13012748dfa",
+        "UpdatedAt": "5/12/2021"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "507eb708-16b8-48b9-8e3e-8cc8cfe5a37d",
+        "Ratings": 3,
+        "CustomerId": "ac2df452-4d8b-463a-9303-af2321238879",
+        "CreatedAt": "7/23/2021",
+        "UpdatedAt": "9/20/2021"
+      },
+      {
+        "Id": "f67f2976-94a7-41f8-a70d-3e422683170f",
+        "Ratings": 4,
+        "CustomerId": "74f07007-cf49-4d55-bd60-3bdbdbc6c084",
+        "CreatedAt": "3/17/2020",
+        "UpdatedAt": "10/22/2021"
+      },
+      {
+        "Id": "4864b17e-7731-4aa5-9e07-f776ea7f851b",
+        "Ratings": 5,
+        "CustomerId": "74f07007-cf49-4d55-bd60-3bdbdbc6c084",
+        "CreatedAt": "8/17/2020",
+        "UpdatedAt": "10/22/2020"
+      },
+      {
+        "Id": "be2b7816-fd21-4552-b4a2-e59df8f9cee9",
+        "Ratings": 4,
+        "CustomerId": "74f07007-cf49-4d55-bd60-3bdbdbc6c084",
+        "CreatedAt": "3/17/2019",
+        "UpdatedAt": "10/22/2020"
+      },
+      {
+        "Id": "934dbb7c-1673-4082-a2a4-f552f545ea60",
+        "Ratings": 3,
+        "CustomerId": "74f07007-cf49-4d55-bd60-3bdbdbc6c084",
+        "CreatedAt": "3/17/2019",
+        "UpdatedAt": "10/22/2020"
+      }
+
+
+    ],
+    "Amenities": [
+      {
+        "Id": "d7c9f840-f3d9-41a9-8a1d-326f5c251c8f",
+        "Name": "Gym",
+        "Price": 10000,
+        "Discount": 0.2,
+        "CreatedAt": "10/29/2020",
+        "UpdatedAt": "11/9/2021"
+      },
+      {
+        "Id": "9f6e1a96-776b-4ac0-9080-113ff4aef270",
+        "Name": "Pool",
+        "Price": 11000,
+        "Discount": 0.1,
+        "CreatedAt": "8/28/2020",
+        "UpdatedAt": "2/19/2021"
+      },
+      {
+        "Id": "7898d27b-c495-4661-8009-73567e1c934c",
+        "Name": "Conference Hall",
+        "Price": 30000,
+        "Discount": 0.12,
+        "CreatedAt": "4/4/2020",
+        "UpdatedAt": "7/30/2021"
+      }
+    ],
+    "RoomTypes": [
+      {
+        "id": "8ec7948d-658c-45b1-b440-844c5c8634e5",
+        "Name": "Single",
+        "Description": "Single bed with a shower",
+        "Price": 15000,
+        "Discount": 0.15,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098448/Hotel%20Listings/single8_vdu0gs.jpg",
+        "Rooms": [
+          {
+            "id": "9c3c04ed-9106-48ec-b97d-40b9a99eb897",
+            "RoomNo": "301",
+            "IsBooked": false,
+            "CreatedAt": "10/13/2020",
+            "UpdatedAt": "12/20/2020"
+          },
+          {
+            "id": "f007b50a-05dd-48c7-94ff-20a6babba72e",
+            "RoomNo": "302",
+            "IsBooked": true,
+            "CreatedAt": "10/16/2020",
+            "UpdatedAt": "5/12/2021"
+          },
+          {
+            "id": "2b46b3dd-377b-4fe9-a052-da083c0e27cf",
+            "RoomNo": "311",
+            "IsBooked": false,
+            "CreatedAt": "10/13/2020",
+            "UpdatedAt": "12/20/2020"
+          },
+          {
+            "id": "6c8346c5-7f59-4093-935b-a31a7065efbd",
+            "RoomNo": "312",
+            "IsBooked": true,
+            "CreatedAt": "10/16/2020",
+            "UpdatedAt": "5/12/2021"
+          }
+        ],
+        "CreatedAt": "10/13/2020",
+        "UpdatedAt": "12/20/2020"
+      },
+      {
+        "id": "7b58bd86-9f44-4e6a-aa84-7aa7b3555681",
+        "Name": "Double",
+        "Description": "Double bed with a bath tub and mini fridge",
+        "Price": 25000,
+        "Discount": 0.08,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098446/Hotel%20Listings/double8_pxptem.jpg",
+        "Rooms": [
+          {
+            "id": "3b95ab7d-bd3f-4d73-85d9-2f43ecd0452d",
+            "RoomNo": "303",
+            "IsBooked": false,
+            "CreatedAt": "1/21/2021",
+            "UpdatedAt": "4/23/2021"
+          },
+          {
+            "id": "e507a4fe-d414-4222-b0ad-d524a1da2b9a",
+            "RoomNo": "304",
+            "IsBooked": true,
+            "CreatedAt": "5/6/2021",
+            "UpdatedAt": "10/19/2020"
+          },
+          {
+            "id": "c07d94ae-e233-49d5-8346-51f824271395",
+            "RoomNo": "323",
+            "IsBooked": false,
+            "CreatedAt": "1/21/2021",
+            "UpdatedAt": "4/23/2021"
+          },
+          {
+            "id": "d350935d-9b1b-4724-907a-700d787bcb99",
+            "RoomNo": "324",
+            "IsBooked": true,
+            "CreatedAt": "5/6/2021",
+            "UpdatedAt": "10/19/2020"
+          }
+
+        ],
+        "CreatedAt": "10/16/2020",
+        "UpdatedAt": "5/12/2021"
+      },
+      {
+        "id": "5a650c0e-dfcc-4671-be98-93f055232b59",
+        "Name": "Executive",
+        "Description": "King sized bed with smart tv,mini fridge and mini bar",
+        "Price": 55000,
+        "Discount": 0.12,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098447/Hotel%20Listings/executive6_zkwif8.jpg",
+        "Rooms": [
+          {
+            "id": "3462fc26-93a9-4e29-a4b2-5c87bdf203f9",
+            "RoomNo": "306",
+            "IsBooked": false,
+            "CreatedAt": "1/21/2021",
+            "UpdatedAt": "4/23/2021"
+          },
+          {
+            "id": "7322b0f3-2946-472b-b124-a06602611d73",
+            "RoomNo": "307",
+            "IsBooked": true,
+            "CreatedAt": "5/6/2021",
+            "UpdatedAt": "10/19/2020"
+          }
+        ],
+        "CreatedAt": "1/21/2021",
+        "UpdatedAt": "4/23/2021"
+      }
+    ],
+    "Galleries": [
+      {
+        "Id": "3e3ed157-85bf-481e-956d-c7814dea8e2a",
+        "ImageUrl": "https://res.cloudinary.com/decagonsq008/image/upload/v1633102414/Hotel%20Listings/hotel20_n9eafl.jpg",
+        "IsFeature": true
+      }
+    ],
+    "CreatedAt": "5/17/2021",
+    "UpdatedAt": "4/16/2021"
+  },
+  {
+    "id": "e9963012-3081-4c12-8deb-31f10b4091e5",
+    "Name": "Seaside hotel",
+    "Description": "Best memories start here.",
+    "Email": "bhopkins1@prweb.com",
+    "Phone": "515-142-4144",
+    "Address": "44 Express Lane",
+    "City": "Lekki Phase One",
+    "Reviews": [
+      {
+        "Id": "6d08c2ad-9db3-4cef-939e-ca7556005b68",
+        "Comment": "Wonderful service and good interior design",
+        "CreatedAt": "3/20/2021",
+        "CustomerId": "c96777aa-0bbf-416d-aedb-5063abc67590",
+        "UpdatedAt": "7/30/2021"
+      },
+      {
+        "Id": "97aff548-50d8-4408-a7c3-6e437333e044",
+        "Comment": "Nice location and scenery",
+        "CreatedAt": "9/22/2021",
+        "CustomerId": "6c0998e8-f505-49c0-8efc-0d5d90a50152",
+        "UpdatedAt": "1/31/2021"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "26da3afa-6d29-4fab-bb28-f06a91f88fa2",
+        "Ratings": 3,
+        "CustomerId": "846e8182-9829-416d-9b66-e3e51b0206b3",
+        "CreatedAt": "6/24/2021",
+        "UpdatedAt": "8/22/2021"
+      },
+      {
+        "Id": "a8b01c2e-957e-4af5-8ade-42aa36c1b6bb",
+        "Ratings": 5,
+        "CustomerId": "922daede-c5ba-48c2-84c4-8b58aae2ddc5",
+        "CreatedAt": "10/28/2020",
+        "UpdatedAt": "7/25/2021"
+      },
+      {
+        "Id": "7f7cac1d-f132-4400-bada-fb9b071fe791",
+        "Ratings": 2,
+        "CustomerId": "922daede-c5ba-48c2-84c4-8b58aae2ddc5",
+        "CreatedAt": "10/28/2020",
+        "UpdatedAt": "7/25/2021"
+      },
+      {
+        "Id": "e03eb3b9-4b91-444f-b2d5-d2dd49f9a502",
+        "Ratings": 4,
+        "CustomerId": "922daede-c5ba-48c2-84c4-8b58aae2ddc5",
+        "CreatedAt": "10/28/2020",
+        "UpdatedAt": "7/25/2021"
+      },
+      {
+        "Id": "bb6d3043-4388-4498-9322-f27daa3c8ad1",
+        "Ratings": 5,
+        "CustomerId": "922daede-c5ba-48c2-84c4-8b58aae2ddc5",
+        "CreatedAt": "10/28/2020",
+        "UpdatedAt": "7/25/2021"
+      }
+    ],
+    "ManagerId": "5765c13a-f609-4f8e-96b5-08a0f7c146ac",
+    "Amenities": [
+      {
+        "Id": "ffcc32f3-3a5a-4962-88ab-17b8c4c64022",
+        "Name": "Pool",
+        "Price": 12000,
+        "Discount": 0.14,
+        "CreatedAt": "8/28/2021",
+        "UpdatedAt": "2/19/2021"
+      },
+      {
+        "Id": "63d4ba7b-366f-41a2-a752-b751075f147c",
+        "Name": "Conference Hall",
+        "Price": 22000,
+        "Discount": 0.12,
+        "CreatedAt": "4/4/2021",
+        "UpdatedAt": "7/30/2021"
+      }
+    ],
+    "RoomTypes": [
+      {
+        "id": "d872c22c-1887-4a38-a83d-57ef485758ce",
+        "Name": "Single",
+        "Description": "Single bed with mini fridge",
+        "Price": 17000,
+        "Discount": 0.12,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098448/Hotel%20Listings/single6_dv0nzh.jpg",
+        "Rooms": [
+          {
+            "Id": "102a4e0a-991d-4c62-bbf2-19d1682c1fab",
+            "RoomNo": "19",
+            "IsBooked": true,
+            "CreatedAt": "1/22/2021",
+            "UpdatedAt": "12/16/2020"
+          },
+          {
+            "Id": "eca965e7-ae6c-4eb2-a9fd-91b0cb4aeb34",
+            "RoomNo": "20",
+            "IsBooked": true,
+            "CreatedAt": "11/28/2020",
+            "UpdatedAt": "7/18/2021"
+          },
+          {
+            "Id": "0e354703-5ebb-4bde-a5f0-b3d502457684",
+            "RoomNo": "21",
+            "IsBooked": false,
+            "CreatedAt": "11/4/2020",
+            "UpdatedAt": "6/30/2021"
+          }
+        ],
+        "CreatedAt": "10/13/2020",
+        "UpdatedAt": "12/20/2020"
+      },
+      {
+        "id": "885bf52a-6170-4ee5-81ea-835ceb3e3f58",
+        "Name": "Executive",
+        "Description": "Single bed with smart tv",
+        "Price": 53000,
+        "Discount": 0.2,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098447/Hotel%20Listings/executive5_irv2dd.jpg",
+        "Rooms": [
+          {
+            "Id": "751c3de8-e9d2-4528-a98f-35fd524c9ea9",
+            "RoomNo": "19",
+            "IsBooked": true,
+            "CreatedAt": "1/22/2021",
+            "UpdatedAt": "12/16/2020"
+          },
+          {
+            "Id": "ae73ff16-8571-4c6b-bcd4-88f750fd392f",
+            "RoomNo": "20",
+            "IsBooked": true,
+            "CreatedAt": "11/28/2020",
+            "UpdatedAt": "7/18/2021"
+          },
+          {
+            "Id": "5974f722-3f21-4c75-8fe5-036ca0539a20",
+            "RoomNo": "21",
+            "IsBooked": false,
+            "CreatedAt": "11/4/2020",
+            "UpdatedAt": "6/30/2021"
+          }
+        ],
+        "CreatedAt": "1/21/2021",
+        "UpdatedAt": "4/23/2021"
+      },
+      {
+        "id": "025a5ccd-5ffb-4264-ad10-b614dc739046",
+        "Name": "Presidential",
+        "Description": "Two rooms each with its own bath tub, a mini bar and smart tv",
+        "Price": 75000,
+        "Discount": 0.1,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098448/Hotel%20Listings/presidential5_qgujsn.jpg",
+        "Rooms": [
+          {
+            "Id": "d66490af-ec7c-44c8-92c0-adca8d41b83f",
+            "RoomNo": "19",
+            "IsBooked": true,
+            "CreatedAt": "1/22/2021",
+            "UpdatedAt": "12/16/2020"
+          },
+          {
+            "Id": "14b9f6ec-7116-470d-8525-efdd0f8ffcbe",
+            "RoomNo": "20",
+            "IsBooked": false,
+            "CreatedAt": "11/28/2020",
+            "UpdatedAt": "7/18/2021"
+          },
+          {
+            "Id": "e2c107b9-bdb2-4023-85ae-124e282f1be6",
+            "RoomNo": "29",
+            "IsBooked": true,
+            "CreatedAt": "1/22/2021",
+            "UpdatedAt": "12/16/2020"
+          },
+          {
+            "Id": "8a6c47cc-feae-443d-bb73-c1a5f8112119",
+            "RoomNo": "30",
+            "IsBooked": false,
+            "CreatedAt": "11/28/2020",
+            "UpdatedAt": "7/18/2021"
+          },
+          {
+            "Id": "095146fd-6ec1-41f6-9f41-8762060b7444",
+            "RoomNo": "21",
+            "IsBooked": false,
+            "CreatedAt": "11/4/2020",
+            "UpdatedAt": "6/30/2021"
+          }
+        ],
+        "CreatedAt": "5/6/2021",
+        "UpdatedAt": "10/19/2020"
+      }
+    ],
+    "Galleries": [
+      {
+        "Id": "6e4b1f70-f239-4f83-91e0-ff3e74ad21e6",
+        "ImageUrl": "https://res.cloudinary.com/decagonsq008/image/upload/v1633102413/Hotel%20Listings/hotel8_cpbsfz.jpg",
+        "IsFeature": true
+      }
+    ],
+    "State": "Lagos",
+    "CreatedAt": "1/6/2021",
+    "UpdatedAt": "8/14/2021"
+  },
+  {
+    "id": "5b9371cb-4a47-4a6c-a99f-bc0aa879655b",
+    "Name": "Expedition Hotel",
+    "Description": "Feel the class.",
+    "Email": "rworsall2@nasa.gov",
+    "Phone": "253-436-6991",
+    "Address": "61 Mallard Avenue",
+    "City": "Maitama",
+    "Reviews": [
+      {
+        "Id": "1b903656-330c-4982-90a2-6a08428262c7",
+        "Comment": "Great service and comfortable beds",
+        "CreatedAt": "9/29/2020",
+        "CustomerId": "ac2df452-4d8b-463a-9303-af2321238879",
+        "UpdatedAt": "5/30/2021"
+      },
+      {
+        "Id": "4c7e413f-ca34-4661-b123-42566a47e9f4",
+        "Comment": "The Executive suite is exquisite",
+        "CreatedAt": "7/14/2021",
+        "CustomerId": "74f07007-cf49-4d55-bd60-3bdbdbc6c084",
+        "UpdatedAt": "7/8/2021"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "6d1edeac-0be1-47a8-9658-62a9178416c1",
+        "Ratings": 5,
+        "CustomerId": "d296434c-13bc-4f44-a8d7-4426bf0cbd56",
+        "CreatedAt": "12/25/2020",
+        "UpdatedAt": "5/18/2021"
+      },
+      {
+        "Id": "a16fa3ec-7506-42ef-9530-f364bc920492",
+        "Ratings": 2,
+        "CustomerId": "810042ea-ac3c-48c0-a7a2-8a94a192aaea",
+        "CreatedAt": "5/8/2021",
+        "UpdatedAt": "12/24/2020"
+      },
+      {
+        "Id": "1d0a0b06-4d28-4e9d-a8a2-df7439a7f26b",
+        "Ratings": 3,
+        "CustomerId": "810042ea-ac3c-48c0-a7a2-8a94a192aaea",
+        "CreatedAt": "5/8/2021",
+        "UpdatedAt": "12/24/2020"
+      },
+      {
+        "Id": "5e19b0d3-2069-481d-99c2-5174ba8f27fb",
+        "Ratings": 4,
+        "CustomerId": "810042ea-ac3c-48c0-a7a2-8a94a192aaea",
+        "CreatedAt": "5/8/2021",
+        "UpdatedAt": "12/24/2020"
+      },
+      {
+        "Id": "effaaba3-17b2-44e5-9307-6c233b15ffed",
+        "Ratings": 4,
+        "CustomerId": "810042ea-ac3c-48c0-a7a2-8a94a192aaea",
+        "CreatedAt": "5/8/2021",
+        "UpdatedAt": "12/24/2020"
+      },
+      {
+        "Id": "dec61cf8-5d35-4cf8-a801-da2d34a31a5e",
+        "Ratings": 2,
+        "CustomerId": "810042ea-ac3c-48c0-a7a2-8a94a192aaea",
+        "CreatedAt": "5/8/2021",
+        "UpdatedAt": "12/24/2020"
+      }
+
+    ],
+    "ManagerId": "a84d25d7-a7ba-4b99-b757-8a52a25f61d5",
+    "RoomTypes": [
+      {
+        "id": "1f35ecc0-60a0-4344-96f8-0005ab00978a",
+        "Name": "Single",
+        "Description": "Single bed with Tv",
+        "Price": 16000,
+        "Discount": 0.05,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098448/Hotel%20Listings/single1_gxgx1n.png",
+        "Rooms": [
+          {
+            "id": "cd2b636d-25c8-4a19-9a35-9688b83b68fc",
+            "RoomNo": "304",
+            "IsBooked": true,
+            "CreatedAt": "5/6/2021",
+            "UpdatedAt": "10/19/2020"
+          },
+          {
+            "id": "411db5c2-bd44-49f5-8b8c-7eba9e88d8c7",
+            "RoomNo": "305",
+            "IsBooked": false,
+            "CreatedAt": "1/1/2021",
+            "UpdatedAt": "11/23/2020"
+          },
+          {
+            "id": "8aa47be7-e9fc-4642-9d02-8cc82693486a",
+            "RoomNo": "314",
+            "IsBooked": true,
+            "CreatedAt": "5/6/2021",
+            "UpdatedAt": "10/19/2020"
+          },
+          {
+            "id": "5090a375-1470-4d08-a439-fd3f61d2974e",
+            "RoomNo": "315",
+            "IsBooked": false,
+            "CreatedAt": "1/1/2021",
+            "UpdatedAt": "11/23/2020"
+          },
+          {
+            "id": "434239ae-4a13-4571-9241-fd1c3ff7b008",
+            "RoomNo": "324",
+            "IsBooked": true,
+            "CreatedAt": "5/6/2021",
+            "UpdatedAt": "10/19/2020"
+          },
+          {
+            "id": "5c7abd5f-2734-42e4-a60d-f3d3c6a754d9",
+            "RoomNo": "325",
+            "IsBooked": false,
+            "CreatedAt": "1/1/2021",
+            "UpdatedAt": "11/23/2020"
+          }
+        ],
+        "CreatedAt": "10/13/2020",
+        "UpdatedAt": "12/20/2020"
+      },
+      {
+        "id": "93968342-394d-406c-8d2a-eb250dc3d817",
+        "Name": "Executive",
+        "Description": "Single bed with mini fridge",
+        "Price": 50000,
+        "Discount": 0.1,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098446/Hotel%20Listings/executive2_tgdoch.jpg",
+        "Rooms": [
+          {
+            "Id": "bb9b7629-f36c-4141-9d1d-ca3fb40e4a01",
+            "RoomNo": "9",
+            "IsBooked": true,
+            "CreatedAt": "4/17/2021",
+            "UpdatedAt": "7/5/2021"
+          },
+          {
+            "Id": "65aa9280-48ca-464f-bdc3-89ce0fdf68c7",
+            "RoomNo": "10",
+            "IsBooked": false,
+            "CreatedAt": "10/16/2020",
+            "UpdatedAt": "6/13/2021"
+          },
+          {
+            "Id": "6d68984b-3030-4307-94c7-40a0036bba22",
+            "RoomNo": "29",
+            "IsBooked": true,
+            "CreatedAt": "4/17/2021",
+            "UpdatedAt": "7/5/2021"
+          },
+          {
+            "Id": "f5177fa2-e4a4-41d1-ade5-66739fe0e47b",
+            "RoomNo": "30",
+            "IsBooked": false,
+            "CreatedAt": "10/16/2020",
+            "UpdatedAt": "6/13/2021"
+          }
+        ],
+        "CreatedAt": "1/21/2021",
+        "UpdatedAt": "4/23/2021"
+      }
+    ],
+    "Amenities": [
+      {
+        "Id": "5a238431-f4de-4df6-a331-bb78ade9d6b3",
+        "Name": "Gym",
+        "Price": 9000,
+        "Discount": 0.14,
+        "CreatedAt": "10/29/2020",
+        "UpdatedAt": "11/9/2020"
+      },
+      {
+        "Id": "3ec7e64d-fde9-4c40-b63c-ae912474ef90",
+        "Name": "Pool",
+        "Price": 12000,
+        "Discount": 0.11,
+        "CreatedAt": "8/28/2021",
+        "UpdatedAt": "2/19/2021"
+      }
+    ],
+    "Galleries": [
+      {
+        "Id": "35494e11-d768-4704-b290-0a8706f7fe9b",
+        "ImageUrl": "https://res.cloudinary.com/decagonsq008/image/upload/v1633102413/Hotel%20Listings/hotel9_xdtnat.jpg",
+        "IsFeature": true
+      }
+    ],
+    "State": "Abuja",
+    "CreatedAt": "2/6/2021",
+    "UpdatedAt": "12/11/2020"
+  },
+  {
+    "id": "c338dbe3-3e48-4109-bf0d-3ccf042519a2",
+    "Name": "Ivory Haven Hotel",
+    "Description": "Heavenly bed. Heavenly bath",
+    "Email": "mbedder3@vimeo.com",
+    "Phone": "404-897-5110",
+    "Address": "5 Hooker Point",
+    "City": "Asokoro",
+    "Reviews": [
+      {
+        "Id": "7b552776-6da5-4aaf-9164-1e722a16a102",
+        "Comment": "Standard, clean facilities",
+        "CreatedAt": "10/23/2020",
+        "CustomerId": "7a535491-de50-445d-a615-7e9a1023e48e",
+        "UpdatedAt": "2/26/2021"
+      },
+      {
+        "Id": "d08f36aa-9e10-4cfe-884a-092457682e39",
+        "Comment": "Getaway location when next i am in Abuja",
+        "CreatedAt": "4/29/2021",
+        "CustomerId": "846e8182-9829-416d-9b66-e3e51b0206b3",
+        "UpdatedAt": "3/8/2021"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "82c693ce-2ae2-4a22-af21-ce8af0dedff6",
+        "Ratings": 4,
+        "CustomerId": "d9b0dfd2-6c4b-47f3-ae3d-1d6cea4ad365",
+        "CreatedAt": "12/12/2020",
+        "UpdatedAt": "7/7/2021"
+      },
+      {
+        "Id": "e9de76b2-27ad-4c2a-b531-cfe880c12973",
+        "Ratings": 3,
+        "CustomerId": "ba4a08e2-62dc-4bfb-bfc9-972ce952102e",
+        "CreatedAt": "11/6/2020",
+        "UpdatedAt": "8/30/2021"
+      },
+      {
+        "Id": "7b457d12-1067-47f6-907f-534dca664003",
+        "Ratings": 3,
+        "CustomerId": "ba4a08e2-62dc-4bfb-bfc9-972ce952102e",
+        "CreatedAt": "11/6/2020",
+        "UpdatedAt": "8/30/2021"
+      },
+      {
+        "Id": "cace089c-6b30-439e-b1f5-46642ce85c3e",
+        "Ratings": 3,
+        "CustomerId": "ba4a08e2-62dc-4bfb-bfc9-972ce952102e",
+        "CreatedAt": "11/6/2020",
+        "UpdatedAt": "8/30/2021"
+      },
+      {
+        "Id": "14e8d798-7d45-4935-88ad-e5fcaabd57c6",
+        "Ratings": 4,
+        "CustomerId": "ba4a08e2-62dc-4bfb-bfc9-972ce952102e",
+        "CreatedAt": "11/6/2020",
+        "UpdatedAt": "8/30/2021"
+      },
+      {
+        "Id": "2e9fffe2-edf6-43d1-8707-27b9b0e726d6",
+        "Ratings": 5,
+        "CustomerId": "ba4a08e2-62dc-4bfb-bfc9-972ce952102e",
+        "CreatedAt": "11/6/2020",
+        "UpdatedAt": "8/30/2021"
+      }
+    ],
+    "ManagerId": "d7638183-f0a4-4188-9fa1-517ee2c2dbdf",
+    "RoomTypes": [
+      {
+        "id": "257f4adc-ac32-422f-b75e-7a0ba7c7e026",
+        "Name": "Single",
+        "Description": "Single bed with shower",
+        "Price": 14500,
+        "Discount": 0.11,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098448/Hotel%20Listings/single3_tzirko.jpg",
+        "CreatedAt": "10/13/2020",
+        "Rooms": [
+          {
+            "Id": "93ad8dea-af8d-49c4-8395-e8cd4cfaa445",
+            "RoomNo": "11",
+            "IsBooked": false,
+            "CreatedAt": "2/17/2021",
+            "UpdatedAt": "6/3/2021"
+          },
+          {
+            "Id": "d3172065-6efa-4ec4-b9d9-dbd3ed65936d",
+            "RoomNo": "12",
+            "IsBooked": true,
+            "CreatedAt": "11/5/2020",
+            "UpdatedAt": "1/27/2021"
+          },
+          {
+            "Id": "a50dfffa-ecf4-4c76-9f0f-9f2ce25dc7b6",
+            "RoomNo": "13",
+            "IsBooked": false,
+            "CreatedAt": "7/6/2021",
+            "UpdatedAt": "8/27/2021"
+          },
+          {
+            "Id": "e173bddb-4aa8-48f9-b8ae-ea99e7c96356",
+            "RoomNo": "24",
+            "IsBooked": true,
+            "CreatedAt": "11/5/2020",
+            "UpdatedAt": "1/27/2021"
+          },
+          {
+            "Id": "9200584b-c686-43f0-a0e7-8987cb481728",
+            "RoomNo": "25",
+            "IsBooked": false,
+            "CreatedAt": "7/6/2021",
+            "UpdatedAt": "8/27/2021"
+          }
+        ],
+        "UpdatedAt": "12/20/2020"
+      },
+      {
+        "id": "50b8d0e1-36c5-4a7a-865f-8bff9f9facd7",
+        "Name": "Double",
+        "Description": "Double bed with shower",
+        "Price": 26000,
+        "Discount": 0.13,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098446/Hotel%20Listings/double4_g4dqnh.jpg",
+        "Rooms": [
+          {
+            "Id": "51163fed-68d2-4d1a-89d0-6f3884a4a1de",
+            "RoomNo": "14",
+            "IsBooked": false,
+            "CreatedAt": "5/26/2021",
+            "UpdatedAt": "4/29/2021"
+          },
+          {
+            "Id": "bd5571d7-6fc3-4f05-aacb-99435689c01c",
+            "RoomNo": "15",
+            "IsBooked": false,
+            "CreatedAt": "11/2/2020",
+            "UpdatedAt": "9/23/2021"
+          },
+          {
+            "Id": "6298dad1-24c3-4ec4-a67e-cb72046c648e",
+            "RoomNo": "16",
+            "IsBooked": false,
+            "CreatedAt": "4/28/2021",
+            "UpdatedAt": "12/13/2020"
+          }
+        ],
+        "CreatedAt": "10/16/2020",
+        "UpdatedAt": "5/12/2021"
+      },
+      {
+        "id": "57b54afc-b5d1-4f31-a509-e4c5261e0e5f",
+        "Name": "Executive",
+        "Description": "Single bed with bath tub and smart tv",
+        "Price": 38000,
+        "Discount": 0.1,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098447/Hotel%20Listings/executive4_i4aiym.jpg",
+        "Rooms": [
+          {
+            "Id": "e25f96e1-ed89-4c56-9330-fa3e458ad381",
+            "RoomNo": "17",
+            "IsBooked": false,
+            "CreatedAt": "2/23/2021",
+            "UpdatedAt": "7/5/2021"
+          },
+          {
+            "Id": "2d18d4ee-b35a-4300-93f3-f656205f1bd6",
+            "RoomNo": "18",
+            "IsBooked": true,
+            "CreatedAt": "1/16/2021",
+            "UpdatedAt": "9/29/2020"
+          },
+          {
+            "Id": "de581bab-4edb-4211-ad20-eee05cca3380",
+            "RoomNo": "19",
+            "IsBooked": true,
+            "CreatedAt": "1/22/2021",
+            "UpdatedAt": "12/16/2020"
+          }
+        ],
+        "CreatedAt": "1/21/2021",
+        "UpdatedAt": "4/23/2021"
+      },
+      {
+        "id": "0e46e121-4f8b-4d87-aeb8-1efa45ad7b30",
+        "Name": "Presidential",
+        "Description": "Two room each with it's own bath tub, smart tv and balcony'",
+        "Price": 70000,
+        "Discount": 0.15,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098447/Hotel%20Listings/presidential4_gk219u.jpg",
+        "Rooms": [
+          {
+            "Id": "ab77c4ee-2c2c-4aa9-b106-6a64c3b6b1da",
+            "RoomNo": "20",
+            "IsBooked": true,
+            "CreatedAt": "11/28/2020",
+            "UpdatedAt": "7/18/2021"
+          },
+          {
+            "Id": "71fa30f9-24f0-4534-8afe-8d8062274d17",
+            "RoomNo": "21",
+            "IsBooked": false,
+            "CreatedAt": "11/4/2020",
+            "UpdatedAt": "6/30/2021"
+          },
+          {
+            "Id": "fc4d0263-a238-4922-8d86-b721ab0abfc4",
+            "RoomNo": "22",
+            "IsBooked": true,
+            "CreatedAt": "1/26/2021",
+            "UpdatedAt": "5/14/2021"
+          }
+        ],
+        "CreatedAt": "5/6/2021",
+        "UpdatedAt": "10/19/2020"
+      }
+    ],
+    "Galleries": [
+      {
+        "Id": "be55b98f-8098-458e-a07a-513c8d20912c",
+        "ImageUrl": "https://res.cloudinary.com/decagonsq008/image/upload/v1633102413/Hotel%20Listings/hotel10_usiwqf.jpg",
+        "IsFeature": true
+      }
+    ],
+    "Amenities": [
+      {
+        "Id": "43025e63-c90c-409f-b033-e5bdd3cb4060",
+        "Name": "Gym",
+        "Price": 10500,
+        "Discount": 0.1,
+        "CreatedAt": "10/29/2020",
+        "UpdatedAt": "11/9/2020"
+      },
+      {
+        "Id": "7e1674e7-567d-4a9b-a24e-c04de20a5e5f",
+        "Name": "Pool",
+        "Price": 10000,
+        "Discount": 0.1,
+        "CreatedAt": "8/28/2021",
+        "UpdatedAt": "2/19/2021"
+      },
+      {
+        "Id": "cb521580-89c5-40fa-858b-8b1467314076",
+        "Name": "Conference Hall",
+        "Price": 25000,
+        "Discount": 0.1,
+        "CreatedAt": "4/4/2021",
+        "UpdatedAt": "7/30/2021"
+      },
+      {
+        "Id": "13e3f8fd-f4d5-4d53-a8b9-be529652e3d0",
+        "Name": "Internet Access",
+        "Price": 9500,
+        "Discount": 0.1,
+        "CreatedAt": "12/8/2020",
+        "UpdatedAt": "6/6/2021"
+      }
+    ],
+    "State": "Abuja",
+    "CreatedAt": "3/10/2021",
+    "UpdatedAt": "12/31/2020"
+  },
+  {
+    "id": "e89f90ef-b560-4d00-b919-080fed7495ff",
+    "Name": "Obsidian Spire Hotel",
+    "Description": "Hotels with personality.",
+    "Email": "aperritt4@sbwire.com",
+    "Phone": "225-871-1529",
+    "Address": "9 Badeau Junction",
+    "City": "Ikwerre",
+    "State": "Rivers",
+    "Reviews": [
+      {
+        "Id": "d9a58fbd-c126-4fa0-afcf-ff60f2a16be7",
+        "Comment": "The view from my balcony was magnificient",
+        "CreatedAt": "12/30/2020",
+        "CustomerId": "59d2d94c-79bf-4aaa-825e-d84a6b80e168",
+        "UpdatedAt": "8/12/2021"
+      },
+      {
+        "Id": "e24ef8e7-4acf-4427-a81f-a60bed4947ae",
+        "Comment": "Facilities are below standard",
+        "CreatedAt": "3/5/2021",
+        "CustomerId": "922daede-c5ba-48c2-84c4-8b58aae2ddc5",
+        "UpdatedAt": "1/8/2021"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "ea514cbd-9c20-4448-b8a6-5053488ddb79",
+        "Ratings": 3,
+        "CustomerId": "d60e65f7-738d-42d8-a960-fccaced0e4a4",
+        "CreatedAt": "3/29/2021",
+        "UpdatedAt": "8/12/2021"
+      },
+      {
+        "Id": "f069d7fe-0297-4d53-88c9-5ce5fee2f975",
+        "Ratings": 1,
+        "CustomerId": "2ccd5586-51f2-444c-aa63-e13012748dfa",
+        "CreatedAt": "5/31/2021",
+        "UpdatedAt": "5/27/2021"
+      },
+      {
+        "Id": "4aa85eaf-8df7-45ad-8461-92888c1f71a1",
+        "Ratings": 3,
+        "CustomerId": "d60e65f7-738d-42d8-a960-fccaced0e4a4",
+        "CreatedAt": "3/29/2021",
+        "UpdatedAt": "8/12/2021"
+      },
+      {
+        "Id": "a025cc13-e945-44ad-8e9f-eacbf3251c94",
+        "Ratings": 3,
+        "CustomerId": "2ccd5586-51f2-444c-aa63-e13012748dfa",
+        "CreatedAt": "5/31/2021",
+        "UpdatedAt": "5/27/2021"
+      },
+      {
+        "Id": "f0f97a4e-4b4b-4cb8-a51b-5172427f32da",
+        "Ratings": 3,
+        "CustomerId": "d60e65f7-738d-42d8-a960-fccaced0e4a4",
+        "CreatedAt": "3/29/2021",
+        "UpdatedAt": "8/12/2021"
+      },
+      {
+        "Id": "e47b12a0-3626-47c0-95fd-941114b572c0",
+        "Ratings": 4,
+        "CustomerId": "2ccd5586-51f2-444c-aa63-e13012748dfa",
+        "CreatedAt": "5/31/2021",
+        "UpdatedAt": "5/27/2021"
+      }
+    ],
+    "ManagerId": "e495a8d1-6fd6-4bc8-b23a-b6d4e6b6623c",
+    "Amenities": [
+      {
+        "Id": "7085b937-cc92-4a17-986f-268c3ef4a337",
+        "Name": "Pool",
+        "Price": 13000,
+        "Discount": 0.25,
+        "CreatedAt": "8/28/2021",
+        "UpdatedAt": "2/19/2021"
+      },
+      {
+        "Id": "45535962-d1a2-4d28-9489-b70890cb60f6",
+        "Name": "Conference Hall",
+        "Price": 24000,
+        "Discount": 0.14,
+        "CreatedAt": "4/4/2021",
+        "UpdatedAt": "7/30/2021"
+      },
+      {
+        "Id": "7c8a6d51-caf2-44b3-b1c3-fb0836151823",
+        "Name": "Internet Access",
+        "Price": 8000,
+        "Discount": 0.19,
+        "CreatedAt": "12/8/2020",
+        "UpdatedAt": "6/6/2021"
+      }
+    ],
+    "RoomTypes": [
+      {
+        "id": "f2f95d5a-b51a-4a24-b7c0-723fa32b1ffa",
+        "Name": "Single",
+        "Description": "Single bed with mini fridge",
+        "Price": 12500,
+        "Discount": 0.1,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098448/Hotel%20Listings/single7_k8nzqy.jpg",
+        "Rooms": [
+          {
+            "id": "8ed53ce7-3594-4374-909e-88343a97e8b2",
+            "RoomNo": "301",
+            "IsBooked": false,
+            "CreatedAt": "10/13/2020",
+            "UpdatedAt": "12/20/2020"
+          },
+          {
+            "id": "5581c853-f9bb-4cc7-949b-0e6907ade985",
+            "RoomNo": "302",
+            "IsBooked": true,
+            "CreatedAt": "10/16/2020",
+            "UpdatedAt": "5/12/2021"
+          },
+          {
+            "id": "9500c8f0-0c4b-4fa1-9a92-e77555b1cf6f",
+            "RoomNo": "303",
+            "IsBooked": false,
+            "CreatedAt": "1/21/2021",
+            "UpdatedAt": "4/23/2021"
+          },
+          {
+            "id": "e8bac523-decb-4ace-ac24-8aaf061dc22a",
+            "RoomNo": "304",
+            "IsBooked": true,
+            "CreatedAt": "5/6/2021",
+            "UpdatedAt": "10/19/2020"
+          }
+        ],
+        "CreatedAt": "10/13/2020",
+        "UpdatedAt": "12/20/2020"
+      },
+      {
+        "id": "7866f539-898a-43f8-b908-69f577f683e7",
+        "Name": "Executive",
+        "Description": "Single bed with mini fridge and tv",
+        "Price": 52000,
+        "Discount": 0.2,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098446/Hotel%20Listings/executive3_rh6een.jpg",
+        "Rooms": [
+          {
+            "id": "f2bbd1af-f7e1-490e-bf92-1090a75f18a1",
+            "RoomNo": "305",
+            "IsBooked": false,
+            "CreatedAt": "1/1/2021",
+            "UpdatedAt": "11/23/2020"
+          },
+          {
+            "Id": "a2fc6183-0510-4932-8234-87a1e4e14d2d",
+            "RoomNo": "9",
+            "IsBooked": true,
+            "CreatedAt": "4/17/2021",
+            "UpdatedAt": "7/5/2021"
+          },
+          {
+            "Id": "513e937c-b73f-4152-9832-0c5a9d6d74df",
+            "RoomNo": "10",
+            "IsBooked": false,
+            "CreatedAt": "10/16/2020",
+            "UpdatedAt": "6/13/2021"
+          },
+          {
+            "Id": "beb4b286-f985-494b-9180-0c42f12f3c20",
+            "RoomNo": "11",
+            "IsBooked": false,
+            "CreatedAt": "2/17/2021",
+            "UpdatedAt": "6/3/2021"
+          }
+        ],
+        "CreatedAt": "1/21/2021",
+        "UpdatedAt": "4/23/2021"
+      },
+      {
+        "id": "b0160b1a-643f-4b6c-9dc0-1c4448f6cd04",
+        "Name": "Presidential",
+        "Description": "Double bed with bath tub,smart tv,mini fridge,mini bar and balcony",
+        "Price": 71000,
+        "Discount": 0.12,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098447/Hotel%20Listings/presidential3_s3tuyi.jpg",
+        "Rooms": [
+          {
+            "Id": "19137c99-1416-4dd9-baaf-1f0d434aadaa",
+            "RoomNo": "12",
+            "IsBooked": true,
+            "CreatedAt": "11/5/2020",
+            "UpdatedAt": "1/27/2021"
+          },
+          {
+            "Id": "fc741dfe-f7ce-4a66-899d-a322b1326112",
+            "RoomNo": "13",
+            "IsBooked": false,
+            "CreatedAt": "7/6/2021",
+            "UpdatedAt": "8/27/2021"
+          },
+          {
+            "Id": "65ee43a9-fde2-407e-87af-49feab88afe4",
+            "RoomNo": "14",
+            "IsBooked": false,
+            "CreatedAt": "5/26/2021",
+            "UpdatedAt": "4/29/2021"
+          },
+          {
+            "Id": "c326bf0e-71e2-479e-9bc7-17d9343a0c2e",
+            "RoomNo": "15",
+            "IsBooked": false,
+            "CreatedAt": "11/2/2020",
+            "UpdatedAt": "9/23/2021"
+          }
+        ],
+        "CreatedAt": "5/6/2021",
+        "UpdatedAt": "10/19/2020"
+      }
+    ],
+    "Galleries": [
+      {
+        "Id": "02d986bc-5be5-49bc-b9a8-12fc4c2defd7",
+        "ImageUrl": "https://res.cloudinary.com/decagonsq008/image/upload/v1633102413/Hotel%20Listings/hotel7_k1ua6r.jpg",
+        "IsFeature": true
+      }
+    ],
+    "CreatedAt": "1/15/2021",
+    "UpdatedAt": "1/22/2021"
+  },
+  {
+    "id": "0ebe22a8-b758-40be-8e25-376dcd76718d",
+    "Name": "Shoreline Hotel",
+    "Description": "Luxury. Redefined.",
+    "Email": "jchaloner5@google.cn",
+    "Phone": "239-280-2490",
+    "Address": "5 Summer Ridge Alley",
+    "ManagerId": "390e272d-a264-4d7b-b3af-8bdc2a1f92f3",
+    "City": "Bonny",
+    "State": "Rivers",
+    "Reviews": [
+      {
+        "Id": "2f8351ac-8a73-41a5-beb6-572a1fb9cff8",
+        "Comment": "Nothing special here",
+        "CreatedAt": "10/31/2020",
+        "CustomerId": "d296434c-13bc-4f44-a8d7-4426bf0cbd56",
+        "UpdatedAt": "11/28/2020"
+      },
+      {
+        "Id": "31af80eb-c6ed-447b-b179-7033f82d84b0",
+        "Comment": "My watch was stolen from my room, watch your belongings here",
+        "CreatedAt": "7/16/2021",
+        "CustomerId": "810042ea-ac3c-48c0-a7a2-8a94a192aaea",
+        "UpdatedAt": "10/29/2020"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "4ecfef32-194f-4b4b-a242-0b21132d5b78",
+        "Ratings": 3,
+        "CustomerId": "c96777aa-0bbf-416d-aedb-5063abc67590",
+        "CreatedAt": "4/15/2021",
+        "UpdatedAt": "2/27/2021"
+      },
+      {
+        "Id": "cdabc346-66d6-4023-ac51-37d9f88b804e",
+        "Ratings": 2,
+        "CustomerId": "6c0998e8-f505-49c0-8efc-0d5d90a50152",
+        "CreatedAt": "10/20/2020",
+        "UpdatedAt": "3/27/2021"
+      },
+      {
+        "Id": "9fa94ff6-83d1-470e-84a2-97c95d64c2e4",
+        "Ratings": 3,
+        "CustomerId": "c96777aa-0bbf-416d-aedb-5063abc67590",
+        "CreatedAt": "4/15/2021",
+        "UpdatedAt": "2/27/2021"
+      },
+      {
+        "Id": "2e4b5ca5-455d-46a9-a837-1dcc62adfbed",
+        "Ratings": 5,
+        "CustomerId": "6c0998e8-f505-49c0-8efc-0d5d90a50152",
+        "CreatedAt": "10/20/2020",
+        "UpdatedAt": "3/27/2021"
+      },
+      {
+        "Id": "5d06b3a0-1092-438d-b427-076cc36501c7",
+        "Ratings": 3,
+        "CustomerId": "c96777aa-0bbf-416d-aedb-5063abc67590",
+        "CreatedAt": "4/15/2021",
+        "UpdatedAt": "2/27/2021"
+      },
+      {
+        "Id": "01f13c05-9d24-485b-8856-fa1365125e69",
+        "Ratings": 5,
+        "CustomerId": "6c0998e8-f505-49c0-8efc-0d5d90a50152",
+        "CreatedAt": "10/20/2020",
+        "UpdatedAt": "3/27/2021"
+      }
+    ],
+    "Amenities": [
+      {
+        "Id": "f6ff020c-4b90-493e-8bee-6b3d0f9e7c5d",
+        "Name": "Gym",
+        "Price": 11500,
+        "Discount": 0.15,
+        "CreatedAt": "10/29/2020",
+        "UpdatedAt": "11/9/2020"
+      },
+      {
+        "Id": "c8b2bb5a-3d37-4ba6-bd96-5f77a6210e29",
+        "Name": "Pool",
+        "Price": 9000,
+        "Discount": 0.13,
+        "CreatedAt": "8/28/2021",
+        "UpdatedAt": "2/19/2021"
+      }
+    ],
+    "RoomTypes": [
+      {
+        "id": "c4a263d1-e965-42a6-a929-560e0e00c4e4",
+        "Name": "Single",
+        "Description": "Single bed with tv",
+        "Price": 14500,
+        "Discount": 0.2,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098448/Hotel%20Listings/single4_aazzsk.jpg",
+        "Rooms": [
+          {
+            "id": "1f60a101-8ccc-432d-ae08-785751fdc052",
+            "RoomNo": "303",
+            "IsBooked": false,
+            "CreatedAt": "1/21/2021",
+            "UpdatedAt": "4/23/2021"
+          },
+          {
+            "id": "d37f26f0-f550-45b1-a203-550733f842f7",
+            "RoomNo": "304",
+            "IsBooked": true,
+            "CreatedAt": "5/6/2021",
+            "UpdatedAt": "10/19/2020"
+          },
+          {
+            "id": "62683e8c-eabb-4f87-a046-b2f54d0bc0e0",
+            "RoomNo": "305",
+            "IsBooked": false,
+            "CreatedAt": "1/1/2021",
+            "UpdatedAt": "11/23/2020"
+          },
+          {
+            "Id": "9b3ec86c-2410-4ad8-b554-95e4f7efdc51",
+            "RoomNo": "9",
+            "IsBooked": true,
+            "CreatedAt": "4/17/2021",
+            "UpdatedAt": "7/5/2021"
+          },
+          {
+            "Id": "e67eefd2-c3d7-425a-b848-4008c613f9e7",
+            "RoomNo": "10",
+            "IsBooked": false,
+            "CreatedAt": "10/16/2020",
+            "UpdatedAt": "6/13/2021"
+          },
+          {
+            "Id": "b1e3e667-b178-4a95-b277-15e2e468640b",
+            "RoomNo": "20",
+            "IsBooked": false,
+            "CreatedAt": "10/16/2020",
+            "UpdatedAt": "6/13/2021"
+          }
+        ],
+        "CreatedAt": "10/13/2020",
+        "UpdatedAt": "12/20/2020"
+      },
+      {
+        "id": "3cfea1da-f2e7-469b-be64-f5202bf26bae",
+        "Name": "Double",
+        "Description": "Two beds with tv and mini fridge",
+        "Price": 30000,
+        "Discount": 0.3,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098446/Hotel%20Listings/double2_kdlqde.png",
+        "Rooms": [
+          {
+            "Id": "d8bfb0a7-1720-492e-be1a-87aa73acb5ea",
+            "RoomNo": "11",
+            "IsBooked": false,
+            "CreatedAt": "2/17/2021",
+            "UpdatedAt": "6/3/2021"
+          },
+          {
+            "Id": "effcba93-6ef8-4f00-b5e7-26cd99bfaf27",
+            "RoomNo": "12",
+            "IsBooked": true,
+            "CreatedAt": "11/5/2020",
+            "UpdatedAt": "1/27/2021"
+          },
+          {
+            "Id": "505049b2-7253-4975-bcd7-7299697208bb",
+            "RoomNo": "21",
+            "IsBooked": false,
+            "CreatedAt": "2/17/2021",
+            "UpdatedAt": "6/3/2021"
+          },
+          {
+            "Id": "463847a7-7ed8-4d08-9e2b-511bf168bfbf",
+            "RoomNo": "22",
+            "IsBooked": true,
+            "CreatedAt": "11/5/2020",
+            "UpdatedAt": "1/27/2021"
+          }
+        ],
+        "CreatedAt": "10/16/2020",
+        "UpdatedAt": "5/12/2021"
+      }
+    ],
+    "Galleries": [
+      {
+        "Id": "19485916-56c4-4e07-8662-311d7d21c9ee",
+        "ImageUrl": "https://res.cloudinary.com/decagonsq008/image/upload/v1633102413/Hotel%20Listings/hotel1_u5uf5f.jpg",
+        "IsFeature": true
+      }
+    ],
+    "CreatedAt": "12/22/2020",
+    "UpdatedAt": "12/20/2020"
+  },
+  {
+    "id": "aa15e58c-468f-4ca4-a158-78e04fb279ac",
+    "Name": "Mirth Hotel",
+    "Description": "Makes you feel at home.",
+    "Email": "mleamy6@bbc.co.uk",
+    "Phone": "515-429-5829",
+    "Address": "9948 Prairie Rose Trail",
+    "City": "Enugu",
+    "ManagerId": "5765c13a-f609-4f8e-96b5-08a0f7c146ac",
+    "State": "Enugu",
+    "Reviews": [
+      {
+        "Id": "0bb7efa3-4c1c-41d9-be34-26597d2f892c",
+        "Comment": "The native food of abacha tastes so good here",
+        "CreatedAt": "9/7/2021",
+        "CustomerId": "d9b0dfd2-6c4b-47f3-ae3d-1d6cea4ad365",
+        "UpdatedAt": "1/21/2021"
+      },
+      {
+        "Id": "d69dbf4a-7c7a-4a8c-a97c-3ba7dbe6e53b",
+        "Comment": "Wonderfull service",
+        "CreatedAt": "9/23/2021",
+        "CustomerId": "ba4a08e2-62dc-4bfb-bfc9-972ce952102e",
+        "UpdatedAt": "1/29/2021"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "048d6271-d740-4379-9118-ba8c01b05b6e",
+        "Ratings": 3,
+        "CustomerId": "74f07007-cf49-4d55-bd60-3bdbdbc6c084",
+        "CreatedAt": "2/1/2021",
+        "UpdatedAt": "8/25/2021"
+      },
+      {
+        "Id": "11b18238-8783-4bc8-989e-1899bd6d044e",
+        "Ratings": 5,
+        "CustomerId": "846e8182-9829-416d-9b66-e3e51b0206b3",
+        "CreatedAt": "2/21/2021",
+        "UpdatedAt": "12/24/2020"
+      },
+      {
+        "Id": "e9f06934-78eb-4e2d-a74d-2c0c0eab986f",
+        "Ratings": 4,
+        "CustomerId": "74f07007-cf49-4d55-bd60-3bdbdbc6c084",
+        "CreatedAt": "2/1/2021",
+        "UpdatedAt": "8/25/2021"
+      },
+      {
+        "Id": "af81a393-483a-42b2-8cb3-eea0f3e68fb2",
+        "Ratings": 5,
+        "CustomerId": "846e8182-9829-416d-9b66-e3e51b0206b3",
+        "CreatedAt": "2/21/2021",
+        "UpdatedAt": "12/24/2020"
+      },
+      {
+        "Id": "ea5c960f-f9f6-4dd1-8b9f-bf7623deab07",
+        "Ratings": 3,
+        "CustomerId": "74f07007-cf49-4d55-bd60-3bdbdbc6c084",
+        "CreatedAt": "2/1/2021",
+        "UpdatedAt": "8/25/2021"
+      },
+      {
+        "Id": "15d99381-afd2-40dc-8af1-9e8e9358e4a8",
+        "Ratings": 4,
+        "CustomerId": "846e8182-9829-416d-9b66-e3e51b0206b3",
+        "CreatedAt": "2/21/2021",
+        "UpdatedAt": "12/24/2020"
+      }
+    ],
+    "Amenities": [
+      {
+        "Id": "a7d9728e-4d1f-446c-96b9-067ab37ee8c3",
+        "Name": "Pool",
+        "Price": 12000,
+        "Discount": 0.13,
+        "CreatedAt": "8/28/2021",
+        "UpdatedAt": "2/19/2021"
+      },
+      {
+        "Id": "92207b7e-9677-4f1b-9226-61f67f0a89ce",
+        "Name": "Conference Hall",
+        "Price": 24000,
+        "Discount": 0.21,
+        "CreatedAt": "4/4/2021",
+        "UpdatedAt": "7/30/2021"
+      }
+    ],
+    "RoomTypes": [
+      {
+        "id": "d0cf0043-26d3-4f25-869d-0d5bfc28d8b1",
+        "Name": "Executive",
+        "Description": "Single bed with smart tv and bath tub",
+        "Price": 45000,
+        "Discount": 0.11,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098446/Hotel%20Listings/executive1_oq6uni.jpg",
+        "Rooms": [
+          {
+            "Id": "2b2509cb-70fb-47e1-b016-ea90b87f7e2d",
+            "RoomNo": "11",
+            "IsBooked": false,
+            "CreatedAt": "2/17/2021",
+            "UpdatedAt": "6/3/2021"
+          },
+          {
+            "Id": "a88f03d8-b9cd-4576-9aa2-ea85452375bc",
+            "RoomNo": "12",
+            "IsBooked": true,
+            "CreatedAt": "11/5/2020",
+            "UpdatedAt": "1/27/2021"
+          },
+          {
+            "Id": "9fc9062a-061f-4f52-8c74-30c2b8724a83",
+            "RoomNo": "13",
+            "IsBooked": false,
+            "CreatedAt": "7/6/2021",
+            "UpdatedAt": "8/27/2021"
+          },
+          {
+            "Id": "4afb3ded-58c2-4f67-9907-8193f1112020",
+            "RoomNo": "14",
+            "IsBooked": false,
+            "CreatedAt": "5/26/2021",
+            "UpdatedAt": "4/29/2021"
+          },
+          {
+            "Id": "f29177ff-b523-496b-924f-5403fcddda0f",
+            "RoomNo": "23",
+            "IsBooked": false,
+            "CreatedAt": "7/6/2021",
+            "UpdatedAt": "8/27/2021"
+          },
+          {
+            "Id": "a29a0a93-b70b-4c38-bf7c-27997b8f64c5",
+            "RoomNo": "24",
+            "IsBooked": false,
+            "CreatedAt": "5/26/2021",
+            "UpdatedAt": "4/29/2021"
+          }
+        ],
+        "CreatedAt": "1/21/2021",
+        "UpdatedAt": "4/23/2021"
+      },
+      {
+        "id": "e84afa98-72ee-4aa7-8f30-4dc917d3f968",
+        "Name": "Presidential",
+        "Description": "Single bed with mini fridge,mini bar,balcony and smart tv",
+        "Price": 72500,
+        "Discount": 0.12,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098447/Hotel%20Listings/presidential1_xu1mpx.jpg",
+        "Rooms": [
+          {
+            "Id": "82237ba4-9d6f-4150-bb19-f5ca40b651f3",
+            "RoomNo": "16",
+            "IsBooked": false,
+            "CreatedAt": "4/28/2021",
+            "UpdatedAt": "12/13/2020"
+          },
+          {
+            "Id": "5ba721c0-1a5f-44e3-83c6-2013fac58398",
+            "RoomNo": "17",
+            "IsBooked": false,
+            "CreatedAt": "2/23/2021",
+            "UpdatedAt": "7/5/2021"
+          },
+          {
+            "Id": "331bff1b-497e-499e-b80b-e837d62cc439",
+            "RoomNo": "18",
+            "IsBooked": true,
+            "CreatedAt": "1/16/2021",
+            "UpdatedAt": "9/29/2020"
+          },
+          {
+            "Id": "81f3088a-908c-4088-ad83-6d608339d8ee",
+            "RoomNo": "19",
+            "IsBooked": true,
+            "CreatedAt": "1/22/2021",
+            "UpdatedAt": "12/16/2020"
+          },
+          {
+            "Id": "750deb30-4388-4225-910b-a2b9b84469b8",
+            "RoomNo": "20",
+            "IsBooked": true,
+            "CreatedAt": "11/28/2020",
+            "UpdatedAt": "7/18/2021"
+          }
+        ],
+        "CreatedAt": "5/6/2021",
+        "UpdatedAt": "10/19/2020"
+      }
+    ],
+    "Galleries": [
+      {
+        "Id": "2916811b-5ea6-41e8-8fcf-0237be0d8956",
+        "ImageUrl": "https://res.cloudinary.com/decagonsq008/image/upload/v1633102412/Hotel%20Listings/hotel6_frp4hz.jpg",
+        "IsFeature": true
+      }
+    ],
+    "CreatedAt": "10/17/2020",
+    "UpdatedAt": "9/23/2021"
+  },
+  {
+    "id": "7a786267-6cec-42b1-9178-b0c84eb09466",
+    "Name": "Quiet Peak Hotel",
+    "Description": "Our world is your playground",
+    "Email": "lhambribe7@opensource.org",
+    "Phone": "828-116-6214",
+    "Address": "160 Thierer Drive",
+    "ManagerId": "a84d25d7-a7ba-4b99-b757-8a52a25f61d5",
+    "City": "New Haven",
+    "State": "Enugu",
+    "Reviews": [
+      {
+        "Id": "ca690f9b-68ec-4b10-b1ce-23748ea8253c",
+        "Comment": "The okpa i was served here was delicious",
+        "CreatedAt": "2/12/2021",
+        "CustomerId": "d60e65f7-738d-42d8-a960-fccaced0e4a4",
+        "UpdatedAt": "12/3/2020"
+      },
+      {
+        "Id": "e259c6b6-e540-4f77-8eda-484cb445e433",
+        "Comment": "The service and location made me love Enugu",
+        "CreatedAt": "1/21/2021",
+        "CustomerId": "bd4760cf-c01c-4aac-8fde-4071b238241c",
+        "UpdatedAt": "9/9/2021"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "5d4a83d3-cdfe-4413-ab5c-5c101b34d015",
+        "Ratings": 5,
+        "CustomerId": "59d2d94c-79bf-4aaa-825e-d84a6b80e168",
+        "CreatedAt": "5/13/2021",
+        "UpdatedAt": "5/31/2021"
+      },
+      {
+        "Id": "88d229e4-a624-4bf0-b55b-6daa57bf0283",
+        "Ratings": 4,
+        "CustomerId": "922daede-c5ba-48c2-84c4-8b58aae2ddc5",
+        "CreatedAt": "4/27/2021",
+        "UpdatedAt": "2/4/2021"
+      },
+      {
+        "Id": "bd352529-e129-46f2-8e5f-fe0787b4d77f",
+        "Ratings": 5,
+        "CustomerId": "59d2d94c-79bf-4aaa-825e-d84a6b80e168",
+        "CreatedAt": "5/13/2021",
+        "UpdatedAt": "5/31/2021"
+      },
+      {
+        "Id": "e9fbc2a6-1e5d-4a4b-9514-051253405b68",
+        "Ratings": 4,
+        "CustomerId": "922daede-c5ba-48c2-84c4-8b58aae2ddc5",
+        "CreatedAt": "4/27/2021",
+        "UpdatedAt": "2/4/2021"
+      },
+      {
+        "Id": "deb28bb3-72e0-4cf3-b5f8-21989dd1cf27",
+        "Ratings": 3,
+        "CustomerId": "59d2d94c-79bf-4aaa-825e-d84a6b80e168",
+        "CreatedAt": "5/13/2021",
+        "UpdatedAt": "5/31/2021"
+      },
+      {
+        "Id": "0060fbb4-ea59-47ba-b25a-6b33804d5b8e",
+        "Ratings": 5,
+        "CustomerId": "922daede-c5ba-48c2-84c4-8b58aae2ddc5",
+        "CreatedAt": "4/27/2021",
+        "UpdatedAt": "2/4/2021"
+      }
+    ],
+    "Amenities": [
+      {
+        "Id": "455639aa-c713-46fd-84c9-268aca54f06c",
+        "Name": "Pool",
+        "Price": 11000,
+        "Discount": 0.12,
+        "CreatedAt": "8/28/2021",
+        "UpdatedAt": "2/19/2021"
+      },
+      {
+        "Id": "a63f132a-3fa4-4b4e-a406-a4d643ce3366",
+        "Name": "Conference Hall",
+        "Price": 22000,
+        "Discount": 0.1,
+        "CreatedAt": "4/4/2021",
+        "UpdatedAt": "7/30/2021"
+      },
+      {
+        "Id": "78139190-ebe8-4d02-8e1b-6e59f9087f37",
+        "Name": "Internet Access",
+        "Price": 9200,
+        "Discount": 0.14,
+        "CreatedAt": "12/8/2020",
+        "UpdatedAt": "6/6/2021"
+      }
+
+    ],
+    "RoomTypes": [
+      {
+        "id": "a8834f5a-4d41-4eea-a13f-effad04cad5e",
+        "Name": "Single",
+        "Description": "Single bed with air conditioning",
+        "Price": 16500,
+        "Discount": 0.05,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098448/Hotel%20Listings/single5_sanafp.jpg",
+        "Rooms": [
+          {
+            "Id": "239ae79d-dae7-4774-94f0-f74eb03f9d2d",
+            "RoomNo": "13",
+            "IsBooked": false,
+            "CreatedAt": "7/6/2021",
+            "UpdatedAt": "8/27/2021"
+          },
+          {
+            "Id": "da44c905-99ea-452e-aabe-1830698c4351",
+            "RoomNo": "14",
+            "IsBooked": false,
+            "CreatedAt": "5/26/2021",
+            "UpdatedAt": "4/29/2021"
+          },
+          {
+            "Id": "37307bdd-cfb7-4e21-b894-d6d47692bf62",
+            "RoomNo": "15",
+            "IsBooked": false,
+            "CreatedAt": "11/2/2020",
+            "UpdatedAt": "9/23/2021"
+          },
+          {
+            "Id": "6acad7c8-526d-43e6-b721-b966d9b51d67",
+            "RoomNo": "16",
+            "IsBooked": false,
+            "CreatedAt": "4/28/2021",
+            "UpdatedAt": "12/13/2020"
+          },
+          {
+            "Id": "0fa7d9ec-3c72-4f8d-832d-e130d84995ab",
+            "RoomNo": "17",
+            "IsBooked": false,
+            "CreatedAt": "2/23/2021",
+            "UpdatedAt": "7/5/2021"
+          }
+        ],
+        "CreatedAt": "10/13/2020",
+        "UpdatedAt": "12/20/2020"
+      },
+      {
+        "id": "637a73d8-cf4b-425d-b120-be6467eb11aa",
+        "Name": "Double",
+        "Description": "Two beds with air conditioning and mini fridge",
+        "Price": 31000,
+        "Discount": 0.09,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098445/Hotel%20Listings/double5_fqfyws.jpg",
+        "Rooms": [
+          {
+            "Id": "fa261912-141a-4728-b8f2-da46e8d95323",
+            "RoomNo": "20",
+            "IsBooked": true,
+            "CreatedAt": "11/28/2020",
+            "UpdatedAt": "7/18/2021"
+          },
+          {
+            "Id": "9789f55f-7562-4404-abde-6af7d6b53ba2",
+            "RoomNo": "21",
+            "IsBooked": false,
+            "CreatedAt": "11/4/2020",
+            "UpdatedAt": "6/30/2021"
+          }
+        ],
+        "CreatedAt": "10/16/2020",
+        "UpdatedAt": "5/12/2021"
+      },
+      {
+        "id": "7e9b9bfc-2ca6-43e6-8e85-a5ec31fbf700",
+        "Name": "Presidential",
+        "Description": "Single bed with air conditioning and bath tub",
+        "Price": 69000,
+        "Discount": 0.1,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098447/Hotel%20Listings/presidential2_hrnorx.jpg",
+        "Rooms": [
+          {
+            "id": "296e3fea-9216-4c34-b060-ee67dad0cefd",
+            "RoomNo": "302",
+            "IsBooked": true,
+            "CreatedAt": "10/16/2020",
+            "UpdatedAt": "5/12/2021"
+          },
+          {
+            "id": "4b708f8e-4f57-4f56-9d68-9fc3fdb9c949",
+            "RoomNo": "303",
+            "IsBooked": false,
+            "CreatedAt": "1/21/2021",
+            "UpdatedAt": "4/23/2021"
+          },
+          {
+            "id": "c2b4f0c3-74fa-4976-bad8-43d811eee494",
+            "RoomNo": "304",
+            "IsBooked": true,
+            "CreatedAt": "5/6/2021",
+            "UpdatedAt": "10/19/2020"
+          },
+          {
+            "id": "3909ef3e-1b70-44f5-8c48-0138e6603c29",
+            "RoomNo": "305",
+            "IsBooked": false,
+            "CreatedAt": "1/1/2021",
+            "UpdatedAt": "11/23/2020"
+          },
+          {
+            "Id": "e5778a9c-e7a5-4585-95b6-4aecd86728e2",
+            "RoomNo": "320",
+            "IsBooked": true,
+            "CreatedAt": "4/17/2021",
+            "UpdatedAt": "7/5/2021"
+          }
+        ],
+        "CreatedAt": "1/21/2021",
+        "UpdatedAt": "4/23/2021"
+      }
+    ],
+    "Galleries": [
+      {
+        "Id": "6189a523-9ef7-40f0-933b-0ff83edf097f",
+        "ImageUrl": "https://res.cloudinary.com/decagonsq008/image/upload/v1633102412/Hotel%20Listings/hotel5_ujhpz8.jpg",
+        "IsFeature": true
+      }
+    ],
+    "CreatedAt": "3/22/2021",
+    "UpdatedAt": "10/20/2020"
+  },
+  {
+    "id": "43fba4a3-1a1a-4988-abda-1b6ae9599742",
+    "Name": "Jade Hotel",
+    "Description": "The Best Value Under the Sun",
+    "Email": "vborn8@delicious.com",
+    "Phone": "818-894-4450",
+    "Address": "97992 Moose Trail",
+    "ManagerId": "d7638183-f0a4-4188-9fa1-517ee2c2dbdf",
+    "City": "Ibadan",
+    "State": "Oyo",
+    "Reviews": [
+      {
+        "Id": "7b4fe480-d1ed-4a7b-9a62-0a517ab9df91",
+        "Comment": "The amala and efo riro is a head turner",
+        "CreatedAt": "12/12/2020",
+        "CustomerId": "2ccd5586-51f2-444c-aa63-e13012748dfa",
+        "UpdatedAt": "7/4/2021"
+      },
+      {
+        "Id": "91002232-2346-40ae-946f-e123ad1896dd",
+        "Comment": "Ibadan is a nice place, great scene",
+        "CreatedAt": "11/23/2020",
+        "CustomerId": "c96777aa-0bbf-416d-aedb-5063abc67590",
+        "UpdatedAt": "12/23/2020"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "4c5081c3-9d62-4381-b570-bd2d4958ca2f",
+        "Ratings": 5,
+        "CustomerId": "d296434c-13bc-4f44-a8d7-4426bf0cbd56",
+        "CreatedAt": "12/12/2020",
+        "UpdatedAt": "5/4/2021"
+      },
+      {
+        "Id": "08505cd7-c4d7-4b9e-a6fb-9478afeac10f",
+        "Ratings": 4,
+        "CustomerId": "810042ea-ac3c-48c0-a7a2-8a94a192aaea",
+        "CreatedAt": "8/20/2021",
+        "UpdatedAt": "6/19/2021"
+      },
+      {
+        "Id": "a9c05e5d-fce9-4962-bb49-7ab71a99ee1a",
+        "Ratings": 5,
+        "CustomerId": "d296434c-13bc-4f44-a8d7-4426bf0cbd56",
+        "CreatedAt": "12/12/2020",
+        "UpdatedAt": "5/4/2021"
+      },
+      {
+        "Id": "47213739-78aa-4694-b5f8-23c9ff8028f2",
+        "Ratings": 3,
+        "CustomerId": "810042ea-ac3c-48c0-a7a2-8a94a192aaea",
+        "CreatedAt": "8/20/2021",
+        "UpdatedAt": "6/19/2021"
+      },
+      {
+        "Id": "0c490c75-6820-46f2-a4e6-e4a78a679911",
+        "Ratings": 3,
+        "CustomerId": "d296434c-13bc-4f44-a8d7-4426bf0cbd56",
+        "CreatedAt": "12/12/2020",
+        "UpdatedAt": "5/4/2021"
+      },
+      {
+        "Id": "648f8751-d371-40dd-9ec8-2da6d6b26721",
+        "Ratings": 4,
+        "CustomerId": "810042ea-ac3c-48c0-a7a2-8a94a192aaea",
+        "CreatedAt": "8/20/2021",
+        "UpdatedAt": "6/19/2021"
+      }
+    ],
+    "Amenities": [
+      {
+        "Id": "a64926ac-d4a7-4b88-83b9-65390a52e660",
+        "Name": "Gym",
+        "Price": 11500,
+        "Discount": 0.1,
+        "CreatedAt": "10/29/2020",
+        "UpdatedAt": "11/9/2020"
+      },
+      {
+        "Id": "a8637e4b-5ddc-499c-bfe8-709564cb0746",
+        "Name": "Pool",
+        "Price": 10000,
+        "Discount": 0.12,
+        "CreatedAt": "8/28/2021",
+        "UpdatedAt": "2/19/2021"
+      },
+      {
+        "Id": "f8d9f607-1e9b-439e-a2f0-f95d2dca6ab7",
+        "Name": "Conference Hall",
+        "Price": 20000,
+        "Discount": 0.16,
+        "CreatedAt": "4/4/2021",
+        "UpdatedAt": "7/30/2021"
+      },
+      {
+        "Id": "893ea847-61ee-4d9a-b13b-43dc0e80e96d",
+        "Name": "Internet Access",
+        "Price": 8200,
+        "Discount": 0.2,
+        "CreatedAt": "12/8/2020",
+        "UpdatedAt": "6/6/2021"
+      }
+    ],
+    "RoomTypes": [
+      {
+        "id": "eda30e08-30f2-4ffb-b526-279fcc46c89e",
+        "Name": "Single",
+        "Description": "Single bed with tv",
+        "Price": 13500,
+        "Discount": 0.08,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098447/Hotel%20Listings/single2_yyvlbp.jpg",
+        "Rooms": [
+          {
+            "Id": "c5a10a18-f5e7-473c-9641-dffee300e3d2",
+            "RoomNo": "11",
+            "IsBooked": false,
+            "CreatedAt": "2/17/2021",
+            "UpdatedAt": "6/3/2021"
+          },
+          {
+            "Id": "55739dde-400d-4665-90b0-d474184fe389",
+            "RoomNo": "12",
+            "IsBooked": true,
+            "CreatedAt": "11/5/2020",
+            "UpdatedAt": "1/27/2021"
+          },
+          {
+            "Id": "27db3068-5ef1-4bdb-921c-3b1de9bf875d",
+            "RoomNo": "13",
+            "IsBooked": false,
+            "CreatedAt": "7/6/2021",
+            "UpdatedAt": "8/27/2021"
+          },
+          {
+            "Id": "cef5dbb3-f721-4aae-a414-c701579a64e2",
+            "RoomNo": "14",
+            "IsBooked": false,
+            "CreatedAt": "5/26/2021",
+            "UpdatedAt": "4/29/2021"
+          },
+          {
+            "Id": "8b1cfe9d-2a5e-448d-b58c-165d39db3033",
+            "RoomNo": "15",
+            "IsBooked": false,
+            "CreatedAt": "11/2/2020",
+            "UpdatedAt": "9/23/2021"
+          },
+          {
+            "Id": "7fd888ca-acc1-4f9b-999a-e73d8326b2b1",
+            "RoomNo": "16",
+            "IsBooked": false,
+            "CreatedAt": "4/28/2021",
+            "UpdatedAt": "12/13/2020"
+          }
+        ],
+        "CreatedAt": "10/13/2020",
+        "UpdatedAt": "12/20/2020"
+      },
+      {
+        "id": "0c7490ad-8978-48aa-975c-1109633c0c71",
+        "Name": "Double",
+        "Description": "Two beds with tv and shower",
+        "Price": 25000,
+        "Discount": 0.05,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098445/Hotel%20Listings/double6_gotjpw.jpg",
+        "Rooms": [
+          {
+            "Id": "545f5e61-b1a7-4611-90cb-2b1adabde0e1",
+            "RoomNo": "18",
+            "IsBooked": true,
+            "CreatedAt": "1/16/2021",
+            "UpdatedAt": "9/29/2020"
+          },
+          {
+            "Id": "37a7e368-7b54-4e27-8c94-392121433c59",
+            "RoomNo": "19",
+            "IsBooked": true,
+            "CreatedAt": "1/22/2021",
+            "UpdatedAt": "12/16/2020"
+          },
+          {
+            "Id": "dd306f9c-e7cd-4a83-9f0c-63fdb71fda92",
+            "RoomNo": "20",
+            "IsBooked": true,
+            "CreatedAt": "11/28/2020",
+            "UpdatedAt": "7/18/2021"
+          },
+          {
+            "Id": "03bd0e5d-932f-4f35-8638-4f50b334b053",
+            "RoomNo": "21",
+            "IsBooked": false,
+            "CreatedAt": "11/4/2020",
+            "UpdatedAt": "6/30/2021"
+          }
+        ],
+        "CreatedAt": "5/6/2021",
+        "UpdatedAt": "10/19/2020"
+      }
+    ],
+    "Galleries": [
+      {
+        "Id": "44c29414-7714-4e35-b5f9-e52803b59d3c",
+        "ImageUrl": "https://res.cloudinary.com/decagonsq008/image/upload/v1633102412/Hotel%20Listings/hotel3_zqmcb3.jpg",
+        "IsFeature": true
+      }
+    ],
+    "CreatedAt": "7/26/2021",
+    "UpdatedAt": "7/26/2021"
+  },
+  {
+    "id": "65d33167-cdb8-49d1-b6e5-5f5a9d46e896",
+    "Name": "Viewpoint Hotel",
+    "Description": "The luxury of being yourself",
+    "Email": "kbrimfield9@arstechnica.com",
+    "Phone": "843-921-6758",
+    "Address": "1654 Victoria Hill",
+    "ManagerId": "e495a8d1-6fd6-4bc8-b23a-b6d4e6b6623c",
+    "City": "Ibadan",
+    "State": "Oyo",
+    "Reviews": [
+      {
+        "Id": "63dee410-90e5-4def-a35c-84621fe091d4",
+        "Comment": "Average Facilities",
+        "CreatedAt": "5/22/2021",
+        "CustomerId": "6c0998e8-f505-49c0-8efc-0d5d90a50152",
+        "UpdatedAt": "1/23/2021"
+      },
+      {
+        "Id": "a4a51034-3336-4666-8d5c-6693e63ecccf",
+        "Comment": "Clean pool and really fast internet",
+        "CreatedAt": "3/12/2021",
+        "CustomerId": "ac2df452-4d8b-463a-9303-af2321238879",
+        "UpdatedAt": "11/11/2020"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "8746c9f1-f126-4fbc-a2f0-a5fa254ee527",
+        "Ratings": 3,
+        "CustomerId": "ac2df452-4d8b-463a-9303-af2321238879",
+        "CreatedAt": "7/10/2021",
+        "UpdatedAt": "5/20/2021"
+      },
+      {
+        "Id": "1391f990-c38d-495a-91d7-09120be2fd58",
+        "Ratings": 4,
+        "CustomerId": "74f07007-cf49-4d55-bd60-3bdbdbc6c084",
+        "CreatedAt": "3/10/2021",
+        "UpdatedAt": "10/22/2020"
+      },
+      {
+        "Id": "14a12ea2-7922-4f72-a921-c6679d861ef8",
+        "Ratings": 3,
+        "CustomerId": "ac2df452-4d8b-463a-9303-af2321238879",
+        "CreatedAt": "7/10/2021",
+        "UpdatedAt": "5/20/2021"
+      },
+      {
+        "Id": "4694c44a-6789-495b-b304-bc0809353319",
+        "Ratings": 4,
+        "CustomerId": "74f07007-cf49-4d55-bd60-3bdbdbc6c084",
+        "CreatedAt": "3/10/2021",
+        "UpdatedAt": "10/22/2020"
+      },
+      {
+        "Id": "227f235b-9508-4fb0-a1ef-f84f665fb3be",
+        "Ratings": 3,
+        "CustomerId": "ac2df452-4d8b-463a-9303-af2321238879",
+        "CreatedAt": "7/10/2021",
+        "UpdatedAt": "5/20/2021"
+      },
+      {
+        "Id": "670fd50a-a364-461f-80aa-acc7791c2332",
+        "Ratings": 5,
+        "CustomerId": "74f07007-cf49-4d55-bd60-3bdbdbc6c084",
+        "CreatedAt": "3/10/2021",
+        "UpdatedAt": "10/22/2020"
+      }
+    ],
+    "Amenities": [
+      {
+        "Id": "7cb40090-080e-4c16-a125-2cbedecaf9dc",
+        "Name": "Pool",
+        "Price": 9000,
+        "Discount": 0.1,
+        "CreatedAt": "8/28/2021",
+        "UpdatedAt": "2/19/2021"
+      },
+      {
+        "Id": "c15553d2-ded0-435c-b219-d6eb32282bf5",
+        "Name": "Conference Hall",
+        "Price": 18000,
+        "Discount": 0.14,
+        "CreatedAt": "4/4/2021",
+        "UpdatedAt": "7/30/2021"
+      },
+      {
+        "Id": "3e817bbe-3cb8-484b-85fa-121b1a575b1d",
+        "Name": "Internet Access",
+        "Price": 7500,
+        "Discount": 0.18,
+        "CreatedAt": "12/8/2020",
+        "UpdatedAt": "6/6/2021"
+      }
+    ],
+    "RoomTypes": [
+      {
+        "id": "84c7e69d-8fe5-4302-ba57-36a9f559a8ad",
+        "Name": "Double",
+        "Description": "Double beds with tv and mini fridge",
+        "Price": 21000,
+        "Discount": 0.1,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098445/Hotel%20Listings/double3_d0l6rr.jpg",
+        "Rooms": [
+          {
+            "id": "7f4c12a4-8a28-4147-867b-3c26174de26c",
+            "RoomNo": "4",
+            "IsBooked": false,
+            "CreatedAt": "1/1/2021",
+            "UpdatedAt": "11/23/2020"
+          },
+          {
+            "Id": "1da7eea8-e270-4c02-a551-7e1eb08b1673",
+            "RoomNo": "9",
+            "IsBooked": true,
+            "CreatedAt": "4/17/2021",
+            "UpdatedAt": "7/5/2021"
+          },
+          {
+            "Id": "8cbddaa7-a239-46e4-a070-d875ee56239b",
+            "RoomNo": "10",
+            "IsBooked": false,
+            "CreatedAt": "10/16/2020",
+            "UpdatedAt": "6/13/2021"
+          },
+          {
+            "Id": "afb86ce3-237a-48d1-adfd-2e831d22c7ae",
+            "RoomNo": "11",
+            "IsBooked": false,
+            "CreatedAt": "2/17/2021",
+            "UpdatedAt": "6/3/2021"
+          },
+          {
+            "Id": "ad707043-a2de-4761-a7f3-2aa512327660",
+            "RoomNo": "12",
+            "IsBooked": true,
+            "CreatedAt": "11/5/2020",
+            "UpdatedAt": "1/27/2021"
+          },
+          {
+            "Id": "dd652fa2-0719-47dd-84a8-f71990884c29",
+            "RoomNo": "13",
+            "IsBooked": false,
+            "CreatedAt": "7/6/2021",
+            "UpdatedAt": "8/27/2021"
+          }
+        ],
+        "CreatedAt": "1/21/2021",
+        "UpdatedAt": "4/23/2021"
+      },
+      {
+        "id": "8a1691bd-da76-493b-bad7-e8598e7ebcc1",
+        "Name": "Presidential",
+        "Description": "Single bed with air conditioning,smart tv and bath tub",
+        "Price": 70000,
+        "Discount": 0.2,
+        "Thumbnail": "https://res.cloudinary.com/decagonsq008/image/upload/v1633098446/Hotel%20Listings/double7_ebpy3t.jpg",
+        "Rooms": [
+          {
+            "Id": "c6f0ef59-de74-479f-9cab-9a06d04ec6a7",
+            "RoomNo": "15",
+            "IsBooked": false,
+            "CreatedAt": "11/2/2020",
+            "UpdatedAt": "9/23/2021"
+          },
+          {
+            "Id": "138ecd82-02c9-475f-97e0-64508298bef5",
+            "RoomNo": "16",
+            "IsBooked": false,
+            "CreatedAt": "4/28/2021",
+            "UpdatedAt": "12/13/2020"
+          },
+          {
+            "Id": "bc432fdd-29ed-4478-b39b-325846eae3c4",
+            "RoomNo": "17",
+            "IsBooked": false,
+            "CreatedAt": "2/23/2021",
+            "UpdatedAt": "7/5/2021"
+          },
+          {
+            "Id": "01028c13-728b-42a8-ac2c-b918fe0aed1d",
+            "RoomNo": "18",
+            "IsBooked": true,
+            "CreatedAt": "1/16/2021",
+            "UpdatedAt": "9/29/2020"
+          },
+          {
+            "Id": "53ba4864-8b90-45f8-b74f-e4aa5452402b",
+            "RoomNo": "19",
+            "IsBooked": true,
+            "CreatedAt": "1/22/2021",
+            "UpdatedAt": "12/16/2020"
+          },
+          {
+            "Id": "4d6ff4d9-d1d0-4ac9-8e58-157fd4b06f3f",
+            "RoomNo": "20",
+            "IsBooked": true,
+            "CreatedAt": "11/28/2020",
+            "UpdatedAt": "7/18/2021"
+          }
+        ],
+        "CreatedAt": "5/6/2021",
+        "UpdatedAt": "10/19/2020"
+      }
+    ],
+    "Galleries": [
+      {
+        "Id": "33d3ca34-970e-4678-8abb-ca3278c43f68",
+        "ImageUrl": "https://res.cloudinary.com/decagonsq008/image/upload/v1633102412/Hotel%20Listings/hotel4_dseozb.jpg",
+        "IsFeature": true
+      }
+    ],
+    "CreatedAt": "7/19/2021",
+    "UpdatedAt": "3/4/2021"
+  }
+]
+

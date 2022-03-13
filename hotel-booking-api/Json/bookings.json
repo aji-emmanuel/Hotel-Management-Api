@@ -1,0 +1,233 @@
+[
+    {
+      "Id": "a343b8ba-0466-4a86-9bdd-4d35ee59b1cd",
+      "CustomerId": "bd4760cf-c01c-4aac-8fde-4071b238241c",
+      "BookingReference": "2ebd7e0e-dd0e-462b-b17a-aff31ebb3013",
+      "CheckIn": "3/29/2021",
+      "CheckOut": "3/30/2021",
+      "NoOfPeople": 2,
+      "ServiceName": "306",
+      "HotelId": "83fe8f03-40af-4dbe-b61b-5c6e7782cf79",
+      "CreatedAt": "3/29/2021",
+      "UpdatedAt": "6/8/2021",
+      "PaymentStatus": true,
+      "Payment": {
+        "TransactionReference": "574294127",
+        "Amount": 90000,
+        "Status": "Success",
+        "MethodOfPayment": "Online Payment",
+        "CreatedAt": "3/29/2021",
+        "UpdatedAt": "7/21/2021"
+      }
+    },
+    {
+      "Id": "d0835b23-f781-48ce-8e68-2685cc34d756",
+      "CustomerId": "2ccd5586-51f2-444c-aa63-e13012748dfa",
+      "BookingReference": "f932a8b3-39aa-4acf-8178-19a80d4a0ce2",
+      "CheckIn": "3/25/2021",
+      "CheckOut": "3/26/2021",
+      "NoOfPeople": 1,
+      "ServiceName": "21",
+      "HotelId": "e9963012-3081-4c12-8deb-31f10b4091e5",
+      "PaymentStatus": false,
+      "CreatedAt": "3/25/2021",
+      "UpdatedAt": "6/8/2021",
+      "Payment": {
+        "TransactionReference": "249680009",
+        "Amount": 72590,
+        "Status": "Pending",
+        "MethodOfPayment": "Online Payment",
+        "CreatedAt": "3/25/2021",
+        "UpdatedAt": "6/25/2021"
+      }
+    },
+    {
+      "Id": "280cf08a-eced-43f5-b582-9397b2515ec8",
+      "CustomerId": "c96777aa-0bbf-416d-aedb-5063abc67590",
+      "BookingReference": "ed6ea097-5196-450e-838f-ebf7a8072499",
+      "CheckIn": "3/6/2021",
+      "CheckOut": "3/7/2021",
+      "NoOfPeople": 1,
+      "ServiceName": "303",
+      "HotelId": "83fe8f03-40af-4dbe-b61b-5c6e7782cf79",
+      "PaymentStatus": true,
+      "CreatedAt": "3/6/2021",
+      "UpdatedAt": "3/8/2021",
+      "Payment": {
+        "TransactionReference": "282265820",
+        "Amount": 85520,
+        "Status": "Processing",
+        "MethodOfPayment": "Online Payment",
+        "CreatedAt": "3/6/2021",
+        "UpdatedAt": "9/22/2021"
+      }
+    },
+    {
+      "Id": "fc429054-9c4b-427d-841f-1523f784feff",
+      "CustomerId": "6c0998e8-f505-49c0-8efc-0d5d90a50152",
+      "BookingReference": "3c568959-3660-4a95-be25-2875c21ce086",
+      "CheckIn": "3/7/2021",
+      "CheckOut": "1/23/2021",
+      "NoOfPeople": 1,
+      "ServiceName": "12",
+      "HotelId": "e89f90ef-b560-4d00-b919-080fed7495ff",
+      "PaymentStatus":  true,
+      "CreatedAt": "3/7/2021",
+      "UpdatedAt": "5/22/2021",
+      "Payment": {
+        "TransactionReference": "888371515",
+        "Amount": 79950,
+        "Status": "Success",
+        "MethodOfPayment": "Online Payment",
+        "CreatedAt": "3/7/2021",
+        "UpdatedAt": "7/31/2021"
+      }
+    },
+    {
+      "Id": "00e165b8-0a45-4e55-bda8-479c258196ab",
+      "CustomerId": "ac2df452-4d8b-463a-9303-af2321238879",
+      "BookingReference": "e8c6b07c-08d9-40dc-8fdd-e33d84f64921",
+      "CheckIn": "3/5/2021",
+      "CheckOut": "1/17/2021",
+      "NoOfPeople": 1,
+      "ServiceName": "14",
+      "HotelId": "aa15e58c-468f-4ca4-a158-78e04fb279ac",
+      "PaymentStatus":  true,
+      "CreatedAt": "3/5/2020",
+      "UpdatedAt": "4/29/2020",
+      "Payment": {
+        "TransactionReference": "312645320",
+        "Amount": 69000,
+        "Status": "Pending",
+        "MethodOfPayment": "Online Payment",
+        "CreatedAt": "3/5/2021",
+        "UpdatedAt": "8/9/2021"
+      }
+    },
+    {
+      "Id": "dd009dd9-9d38-41ec-ae61-3f2e86433923",
+      "CustomerId": "74f07007-cf49-4d55-bd60-3bdbdbc6c084",
+      "BookingReference": "bbeeba4b-3c33-40e5-bcd2-1918311b6371",
+      "CheckIn": "4/25/2021",
+      "CheckOut": "1/17/2021",
+      "NoOfPeople": 2,
+      "ServiceName": "302",
+      "HotelId": "7a786267-6cec-42b1-9178-b0c84eb09466",
+      "PaymentStatus":  true,
+      "CreatedAt": "4/25/2021",
+      "UpdatedAt": "4/29/2021",
+      "Payment": {
+        "TransactionReference": "612933752",
+        "Amount": 89000,
+        "Status": "Pending",
+        "MethodOfPayment": "Online Payment",
+        "CreatedAt": "4/25/2021",
+        "UpdatedAt": "6/6/2021"
+      }
+    },
+    {
+      "Id": "05c21943-d63f-4813-bf9a-fad6d933ba10",
+      "CustomerId": "7a535491-de50-445d-a615-7e9a1023e48e",
+      "BookingReference": "c919c34b-577c-4a79-8718-7ae09061b4ab",
+      "CheckIn": "8/25/2021",
+      "CheckOut": "1/17/2021",
+      "NoOfPeople": 2,
+      "ServiceName": "10",
+      "HotelId": "65d33167-cdb8-49d1-b6e5-5f5a9d46e896",
+      "PaymentStatus":  true,
+      "CreatedAt": "8/25/2021",
+      "UpdatedAt": "5/29/2021",
+      "Payment": {
+        "TransactionReference": "387002213",
+        "Amount": 69000,
+        "Status": "Successful",
+        "MethodOfPayment": "Online Payment",
+        "CreatedAt": "8/25/2021",
+        "UpdatedAt": "6/9/2021"
+      }
+    },
+    {
+      "Id": "1a34e7b5-0c00-4631-bf21-5089eb0299a5",
+      "CustomerId": "d296434c-13bc-4f44-a8d7-4426bf0cbd56",
+      "BookingReference": "c244ba6f-08ed-4acf-882e-b1b3828dd2ee",
+      "CheckIn": "1/21/2021",
+      "CheckOut": "2/4/2021",
+      "NoOfPeople": 1,
+      "ServiceName": "19",
+      "HotelId": "c338dbe3-3e48-4109-bf0d-3ccf042519a2",
+      "PaymentStatus":  false,
+      "CreatedAt": "1/21/2020",
+      "UpdatedAt": "5/8/2020",
+      "Payment": {
+        "TransactionReference": "141165070",
+        "Amount": 90000,
+        "Status": "Success",
+        "MethodOfPayment": "Online Payment",
+        "CreatedAt": "1/21/2021",
+        "UpdatedAt": "7/21/2021"
+      }
+    },
+    {
+      "Id": "36f44590-c660-40b0-9f34-cee4ab4a1365",
+      "CustomerId": "c96777aa-0bbf-416d-aedb-5063abc67590",
+      "BookingReference": "3f38ba94-0c9a-46d0-8648-80a28df89808",
+      "CheckIn": "2/21/2021",
+      "CheckOut": "2/4/2021",
+      "NoOfPeople": 11,
+      "ServiceName": "19",
+      "PaymentStatus": false,
+      "HotelId": "0ebe22a8-b758-40be-8e25-376dcd76718d",
+      "CreatedAt": "2/21/2020",
+      "UpdatedAt": "5/8/2020",
+      "Payment": {
+        "TransactionReference": "658215936",
+        "Amount": 80000,
+        "Status": "Failed",
+        "MethodOfPayment": "Online Payment",
+        "CreatedAt": "2/21/2021",
+        "UpdatedAt": "7/21/2021"
+      }
+    },
+    {
+      "Id": "1521802b-1d98-4a64-836d-5f5bba34d772",
+      "CustomerId": "74f07007-cf49-4d55-bd60-3bdbdbc6c084",
+      "BookingReference": "9ea92551-cd4b-43bd-822e-e1b4afd52c18",
+      "CheckIn": "10/11/2021",
+      "CheckOut": "2/4/2021",
+      "NoOfPeople": 2,
+      "ServiceName": "10",
+      "PaymentStatus": false,
+      "HotelId": "5b9371cb-4a47-4a6c-a99f-bc0aa879655b",
+      "CreatedAt": "10/11/2020",
+      "UpdatedAt": "5/8/2020",
+      "Payment": {
+        "TransactionReference": "734205286",
+        "Amount": 82000,
+        "Status": "Pending",
+        "MethodOfPayment": "Online Payment",
+        "CreatedAt": "10/11/2021",
+        "UpdatedAt": "7/21/2021"
+      }
+    },
+    {
+      "Id": "4a2633da-d4b7-4537-a3e0-76e2efb23cf8",
+      "CustomerId": "74f07007-cf49-4d55-bd60-3bdbdbc6c084",
+      "BookingReference": "1f1ea051-dc2e-4b12-993f-fd2ffb555f1f",
+      "CheckIn": "9/11/2021",
+      "CheckOut": "2/4/2021",
+      "NoOfPeople": 2,
+      "ServiceName": "17",
+      "PaymentStatus": false,
+      "HotelId": "c338dbe3-3e48-4109-bf0d-3ccf042519a2",
+      "CreatedAt": "9/11/2020",
+      "UpdatedAt": "5/8/2020",
+      "Payment": {
+        "TransactionReference": "100295666",
+        "Amount": 72000,
+        "Status": "Failed",
+        "MethodOfPayment": "Online Payment",
+        "CreatedAt": "9/11/2021",
+        "UpdatedAt": "7/21/2021"
+      }
+    }
+]
