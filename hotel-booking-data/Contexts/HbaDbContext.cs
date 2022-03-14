@@ -49,22 +49,22 @@ namespace hotel_booking_data.Contexts
         }
 
 
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    base.OnModelCreating(modelBuilder);
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
 
-        //    modelBuilder.Entity<WishList>()
-        //        .HasKey(bc => new { bc.CustomerId, bc.HotelId });
-        //    modelBuilder.Entity<WishList>()
-        //        .HasOne(bc => bc.Customer)
-        //        .WithMany(b => b.WishLists)
-        //        .HasForeignKey(bc => bc.CustomerId);
-        //    modelBuilder.Entity<WishList>()
-        //        .HasOne(bc => bc.Hotel)
-        //        .WithMany(c => c.WishLists)
-        //        .HasForeignKey(bc => bc.HotelId);
+            modelBuilder.Entity<WishList>()
+                .HasKey(bc => new { bc.CustomerId, bc.HotelId });
+            modelBuilder.Entity<WishList>()
+                .HasOne(bc => bc.Customer)
+                .WithMany(b => b.WishLists)
+                .HasForeignKey(bc => bc.CustomerId);
+            modelBuilder.Entity<WishList>()
+                .HasOne(bc => bc.Hotel)
+                .WithMany(c => c.WishLists)
+                .HasForeignKey(bc => bc.HotelId);
           
                 
-        //}
+        }
     }
 }

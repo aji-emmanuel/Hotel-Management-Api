@@ -234,7 +234,7 @@ namespace hotel_booking_core.Services
             response.Succeeded = false;
 
             return response;
-    } 
+        } 
 
         public async Task<Response<string>> AddManagerRequest(ManagerRequestDto managerRequest)
         {

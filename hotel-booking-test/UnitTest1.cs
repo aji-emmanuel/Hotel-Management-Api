@@ -8,7 +8,11 @@ namespace hotel_booking_test
         [Fact]
         public void Test1()
         {
+            //Arrange
 
+            //Act
+
+            //Assert
         }
     }
 }
