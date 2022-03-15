@@ -82,7 +82,7 @@ namespace hotel_booking_data.Seeder
                 await dbContext.Hotels.AddRangeAsync(hotels);
             }
 
-            // Whishlist
+            // Wishlist items
             if (!dbContext.WishLists.Any())
             {
                 var path = File.ReadAllText(FilePath(baseDir, "Json/wishlists.json"));
