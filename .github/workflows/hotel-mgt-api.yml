@@ -17,6 +17,7 @@ jobs:
     name: Deploy to Heroku
     runs-on: ubuntu-18.04
     steps:
+<<<<<<< HEAD
 
     # Clone the repository
     - name: Checkout
@@ -32,3 +33,16 @@ jobs:
         heroku container:push web -a $APP_NAME
         heroku container:release web -a $APP_NAME
       
+=======
+    - uses: actions/checkout@v2
+    - name: hotel management app api
+      env:
+        HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+        APP_NAME: ${{ secrets.HEROKU_APP_NAME }}
+      run: 
+        docker build -t hotel-mgt-api .
+          docker tag hotel-mgt-api registry.heroku.com
+          docker login --username=_ --password=$HEROKU_API_KEY registry.heroku.com
+          heroku container:push web -a $APP_NAME
+          heroku container:release web -a $APP_NAME
+>>>>>>> 0a1a99245722fa3154357aae6e1bfc520395c509
