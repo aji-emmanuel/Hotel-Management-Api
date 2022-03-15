@@ -34,6 +34,7 @@ namespace hotel_booking_api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddHttpClient();
+            // Has the conditions for both developmenet and production environments
             services.AddDbContextAndConfigurations(Environment, Configuration);
 
             services.AddSingleton<IActionContextAccessor, ActionContextAccessor>()
