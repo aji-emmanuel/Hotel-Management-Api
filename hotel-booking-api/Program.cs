@@ -16,7 +16,9 @@ namespace hotel_booking_api
 
             IConfiguration config = ConfigurationSetupExtension.GetConfig(isDevelopment);
 
+            // Serilog Settings
             LogSettingsExtension.SetupSerilog(config);
+
             try
             {
                 Log.Information("Application is starting...");
