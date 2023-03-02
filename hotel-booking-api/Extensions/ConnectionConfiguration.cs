@@ -33,7 +33,7 @@ namespace hotel_booking_api.Extensions
             // string port = Environment.GetEnvironmentVariable("Database-Port");
             // return $"User ID={userName};Password={Password};Host={host};Port={port};" +
             // $"Database={database};Pooling=true;SSL Mode=Require;Trust Server Certificate=True;";
-            return string connectionUrl = Environment.GetEnvironmentVariable("DATABASE_URL");
+            return Environment.GetEnvironmentVariable("DATABASE_URL");
         }
 
         public static void AddDbContextAndConfigurations(this IServiceCollection services, IWebHostEnvironment env, IConfiguration config)
