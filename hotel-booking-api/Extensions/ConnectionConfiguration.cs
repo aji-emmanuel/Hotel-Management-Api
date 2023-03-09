@@ -26,14 +26,7 @@ namespace hotel_booking_api.Extensions
 
         private static string GetRenderConnectionString()
         {
-            // string database = Environment.GetEnvironmentVariable("Database");
-            // string userName = Environment.GetEnvironmentVariable("Database-UserName");
-            // string Password = Environment.GetEnvironmentVariable("Database-Password");
-            // string host = Environment.GetEnvironmentVariable("Database-Host");
-            // string port = Environment.GetEnvironmentVariable("Database-Port");
-            // return $"User ID={userName};Password={Password};Host={host};Port={port};" +
-            // $"Database={database};Pooling=true;SSL Mode=Require;Trust Server Certificate=True;";
-            return Environment.GetEnvironmentVariable("DATABASE_URL");
+            return Environment.GetEnvironmentVariable("DatabaseUrl");
         }
 
         public static void AddDbContextAndConfigurations(this IServiceCollection services, IWebHostEnvironment env, IConfiguration config)
